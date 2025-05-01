@@ -1,14 +1,32 @@
----
+
 layout: default
 title: Home
 ---
 
-# Welcome to My Lab Blog
+# 👋 Welcome to My Lab Blog
 
-This is my personal space to document projects, tutorials, and career growth in IT and cybersecurity.
+This is my personal space to document hands-on labs, write blog posts, and track my cybersecurity and IT journey.
 
-- 🔧 Hands-on labs
-- 🧠 Certification prep
-- 📝 Blog posts
+---
 
-More coming soon...
+## 📘 Latest Blog Post
+
+- [What Is Markdown and Why I'm Using It](2024/04/30/what-is-markdown.html)
+
+---
+
+## 🛠 Featured Projects
+
+Coming soon:
+- Active Directory Lab Walkthrough
+- Windows Privilege Escalation Practice
+- Python Automation Scripts
+
+---
+
+## 📎 Connect With Me
+
+- [GitHub Profile](https://github.com/sloucks623)
+- [LinkedIn](https://linkedin.com/in/YOUR-USERNAME)
+- [Resume](./assets/resume.pdf)  ← Add your PDF here later
+

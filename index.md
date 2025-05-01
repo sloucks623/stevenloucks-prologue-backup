@@ -12,7 +12,7 @@ This is my personal space to document hands-on labs, write blog posts, and track
 ## 📎 Connect With Me
 
 [![GitHub](https://cdn.simpleicons.org/github/000000)](https://github.com/sloucks623)
-[![LinkedIn](https://cdn.simpleicons.org/linkedin/0077B5)](https://linkedin.com/in/YOUR-LINKEDIN-USERNAME)
+[![LinkedIn](https://cdn.simpleicons.org/linkedin/0077B5)](https://www.linkedin.com/in/steven-loucks-846b65270)
 
 ---
 

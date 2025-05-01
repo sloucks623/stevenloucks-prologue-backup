@@ -3,80 +3,63 @@ layout: default
 title: Home
 ---
 
-# 👋 Welcome to My Lab Blog
+<header>
+  <h1>Steven Loucks</h1>
+  <p>Cybersecurity Student | Cloud Enthusiast | Lab Builder</p>
+  <nav>
+    <a href="#certs">Certifications</a>
+    <a href="#labs">Labs</a>
+    <a href="#blog">Blog</a>
+  </nav>
+</header>
 
-This is my personal space to document hands-on labs, write blog posts, and track my cybersecurity and IT journey.
+<section id="certs">
+  <h2>Certifications</h2>
+  <details>
+    <summary>CompTIA Security+</summary>
+    <p>Core security concepts, risk management, threat analysis, cryptography, and incident response. Verified and current.</p>
+  </details>
+  <details>
+    <summary>ISC² Certified in Cybersecurity</summary>
+    <p>Entry-level cert focusing on cybersecurity principles, network security, and access controls.</p>
+  </details>
+  <details>
+    <summary>LPIC-1 Linux Essentials</summary>
+    <p>Linux command line basics, file permissions, package management, and basic system admin knowledge.</p>
+  </details>
+</section>
 
----
+<section id="labs">
+  <h2>Lab Work</h2>
 
+  <details>
+    <summary>
+      <img src="/assets/icons/windows.png" alt="AD Icon" style="height: 24px; vertical-align: middle; margin-right: 8px;" />
+      Active Directory Lab (VirtualBox + Shuffle + Slack)
+    </summary>
+    <p>Built a functional AD environment using VirtualBox. Integrated Shuffle for automation and Slack for alerting.</p>
+    <span style="display: inline-block; background: #222; padding: 0.2rem 0.5rem; border-radius: 4px; margin-right: 0.5rem;">VirtualBox</span>
+    <span style="display: inline-block; background: #222; padding: 0.2rem 0.5rem; border-radius: 4px;">Automation</span><br />
+    <a href="https://github.com/sloucks623/ad-lab" class="button" target="_blank">View Repository</a>
+  </details>
 
-## 📎 Connect With Me
+  <details>
+    <summary>
+      <img src="/assets/icons/kali.png" alt="Kali Icon" style="height: 24px; vertical-align: middle; margin-right: 8px;" />
+      Kali Linux Recon Lab
+    </summary>
+    <p>Used Kali tools like Nmap and Dirb to scan a target. Documented findings with MITRE ATT&CK mapping.</p>
+    <span style="display: inline-block; background: #222; padding: 0.2rem 0.5rem; border-radius: 4px; margin-right: 0.5rem;">Kali</span>
+    <span style="display: inline-block; background: #222; padding: 0.2rem 0.5rem; border-radius: 4px;">Recon</span><br />
+    <a href="https://github.com/sloucks623/kali-recon-lab" class="button" target="_blank">View Repository</a>
+  </details>
+</section>
 
-<a href="https://www.linkedin.com/in/steven-loucks-846b65270" target="_blank" style="margin-right: 10px;">
-  <img src="https://cdn.simpleicons.org/linkedin/0077B5" alt="LinkedIn" height="24" />
-</a>
+<section id="blog">
+  <h2>Latest Blog Entries</h2>
+  <p>Coming soon — articles on certifications, labs, and learning journeys will appear here.</p>
+</section>
 
-<a href="https://github.com/sloucks623" target="_blank">
-  <img src="https://cdn.simpleicons.org/github/000000" alt="GitHub" height="24" />
-</a>
-
----
-
-## 📘 Latest Blog Post
-
-- [What Is Markdown and Why I'm Using It](2024/04/30/what-is-markdown.html)
-
----
-
-## 🗂 Blog Index
-
-- [What Is Markdown and Why I'm Using It](2024/04/30/what-is-markdown.html)
-
----
-
-## 🛠 Featured Projects
-
-Coming soon:
-- Active Directory Lab Walkthrough
-- Windows Privilege Escalation Practice
-- Python Automation Scripts
-
----
-
-## 🎓 Certifications
-
-Click a category below to jump to its certifications:
-
-- 🛡️ [CompTIA](#comptia)
-- 🔐 [ISC2](#isc2)
-- 🐧 [LPI Linux](#lpi-linux)
-- 🪟 [Microsoft](#microsoft)
-
----
-
-## 🛡️ CompTIA
-
-- ✅ A+
-- ✅ Network+
-- ✅ Security+
-
-*Coming soon: links to study notes, blog posts, and certification progress*
-
----
-
-## 🔐 ISC2
-
-- ✅ Certified in Cybersecurity (CC)
-- 🔄 CISSP (in progress)
-
----
-
-## 🐧 LPI Linux
-
-- 🔄 LPIC-1 (in progress)
-
----
-
-## 🪟 Microsoft
-
-- 🔄 Azure Fundamentals (AZ-900) (planned)
+<footer>
+  &copy; 2025 Steven Loucks — Built with GitHub Pages
+</footer>

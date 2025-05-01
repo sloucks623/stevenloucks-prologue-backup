@@ -12,19 +12,12 @@ This is my personal space to document hands-on labs, write blog posts, and track
 
 ## 📎 Connect With Me
 
-
-
-<a href="https://www.linkedin.com/in/steven-loucks-846b65270" target="_blank">
-  <img src="/assets/icons/linkedin.png" alt="LinkedIn" height="24" />
+<a href="https://www.linkedin.com/in/steven-loucks-846b65270" target="_blank" style="margin-right: 10px;">
+  <img src="https://cdn.simpleicons.org/linkedin/0077B5" alt="LinkedIn" height="24" />
 </a>
-
 
 <a href="https://github.com/sloucks623" target="_blank">
-  <img src="https://cdn.simpleicons.org/github/000000" alt="GitHub" height="24" style="margin-right: 10px;" />
-</a>
-
-<a href="https://www.linkedin.com/in/steven-loucks-846b65270" target="_blank">
-  <img src="https://cdn.simpleicons.org/linkedin/0077B5" alt="LinkedIn" height="24" />
+  <img src="https://cdn.simpleicons.org/github/000000" alt="GitHub" height="24" />
 </a>
 
 ---

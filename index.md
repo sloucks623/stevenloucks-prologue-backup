@@ -35,5 +35,5 @@ Coming soon:
 ## 📎 Connect With Me
 
 - [GitHub Profile](https://github.com/sloucks623)
-- [LinkedIn](https://linkedin.com/in/Steven-Loucks)
+- [LinkedIn](www.linkedin.com/in/steven-loucks-846b65270)
 - [Resume](./assets/resume.pdf)  ← Add your PDF here later

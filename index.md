@@ -1,10 +1,23 @@
----
+-----
 layout: default
 title: Home
 ---
 
+<style>
+  .rotate-icon {
+    animation: slow-spin 8s linear infinite;
+    display: inline-block;
+  }
+
+  @keyframes slow-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+</style>
+
 <header>
   <h1>Steven Loucks</h1>
+  ...
   <p>Cybersecurity Student | Cloud Enthusiast | Lab Builder</p>
   <nav>
     <a href="#certs">Certifications</a>

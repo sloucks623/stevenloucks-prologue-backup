@@ -1,6 +1,6 @@
 # What Is Markdown and Why I'm Using It
 
-**Date:** YYYY-MM-DD  
+**Date:** 2025-04-30  
 **Category:** Tools / Portfolio Building
 
 ---

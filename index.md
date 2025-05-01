@@ -1,4 +1,4 @@
-
+---
 layout: default
 title: Home
 ---
@@ -10,6 +10,14 @@ This is my personal space to document hands-on labs, write blog posts, and track
 ---
 
 ## 📘 Latest Blog Post
+
+- [What Is Markdown and Why I'm Using It](2024/04/30/what-is-markdown.html)
+
+---
+
+## 🗂 Blog Index
+
+> Future blog posts will appear here automatically (manual links for now):
 
 - [What Is Markdown and Why I'm Using It](2024/04/30/what-is-markdown.html)
 
@@ -29,4 +37,3 @@ Coming soon:
 - [GitHub Profile](https://github.com/sloucks623)
 - [LinkedIn](https://linkedin.com/in/YOUR-USERNAME)
 - [Resume](./assets/resume.pdf)  ← Add your PDF here later
-

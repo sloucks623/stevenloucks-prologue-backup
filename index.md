@@ -72,6 +72,47 @@ title: Steven Loucks – Cybersecurity Portfolio
 <div class="section">
   <h2>Certifications</h2>
   <div class="card-grid">
+  <div class="section">
+  <h2>Certifications</h2>
+  <div class="card-grid">
+
+    <div class="card">
+      <img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+ Icon" />
+      <h3>CompTIA A+</h3>
+      <p>Core IT support, OS, hardware, and troubleshooting.</p>
+      <a class="button" href="#">View Badge</a>
+    </div>
+
+    <div class="card">
+      <img src="/assets/icons/comptia-network-plus.png" alt="CompTIA Network+ Icon" />
+      <h3>CompTIA Network+</h3>
+      <p>Network design, protocols, and security fundamentals.</p>
+      <a class="button" href="#">View Badge</a>
+    </div>
+
+    <div class="card">
+      <img src="/assets/icons/comptia-security-plus.png" alt="CompTIA Security+ Icon" />
+      <h3>CompTIA Security+</h3>
+      <p>Risk management, threats, and cyber defense.</p>
+      <a class="button" href="#">View Badge</a>
+    </div>
+
+    <div class="card">
+      <img src="/assets/icons/isc2-cc.png" alt="ISC² Certified in Cybersecurity Icon" />
+      <h3>ISC² CC</h3>
+      <p>Cybersecurity principles, access control, and security operations.</p>
+      <a class="button" href="#">View Badge</a>
+    </div>
+
+    <div class="card">
+      <img src="/assets/icons/linux-essentials.png" alt="Linux Essentials Icon" />
+      <h3>Linux Essentials (LPI)</h3>
+      <p>Linux command line, permissions, package management, and user roles.</p>
+      <a class="button" href="#">View Badge</a>
+    </div>
+
+  </div>
+</div>
 
     <div class="card">
       <img src="/assets/icons/comptia-a-plus.png" alt="A+ Icon" />

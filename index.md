@@ -100,5 +100,3 @@ title: Steven Loucks – Cybersecurity Portfolio
 ---
 
 <footer>
-  &copy; 2025 Steven Loucks — Built with GitHub Pages & Slate Theme
-</footer>

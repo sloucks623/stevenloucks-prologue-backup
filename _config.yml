@@ -1,5 +1,41 @@
-title: Steven's Lab Blog
-description: Personal IT portfolio and blog
-theme: jekyll-theme-minima
+title: Steven Loucks Portfolio
+description: >
+  Cybersecurity Projects, Certifications, and Labs
+baseurl: "" # Leave empty if hosted at root (e.g., stevenloucks.tech)
+url: "https://stevenloucks.tech" # Replace with your custom domain if configured
 
+theme: minima
 
+collections:
+  labs:
+    output: true
+    permalink: /labs/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: labs
+    values:
+      layout: post
+      author: Steven Loucks
+
+# Optional: Customize site navigation (Minima supports this)
+# Uncomment and update once you want nav links
+# header_pages:
+#   - index.md
+#   - certifications.md
+#   - labs.md
+#   - blog.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Include folders to publish
+include:
+  - _labs

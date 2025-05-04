@@ -48,11 +48,6 @@ title: Steven Loucks – Cybersecurity Portfolio
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   }
 
-  .card img {
-    height: 40px;
-    margin-bottom: 0.5rem;
-  }
-
   .card h3 {
     color: #fff;
     margin: 0.5rem 0;
@@ -114,6 +109,33 @@ title: Steven Loucks – Cybersecurity Portfolio
   <p>
     Through labs, certifications, and hands-on learning at WGU, I’m building the skills needed to contribute immediately in areas like SOC operations, network defense, and security automation.
   </p>
+</div>
+
+<div class="section" id="certs">
+  <h2>Certifications</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 1rem;">
+
+    <a href="https://www.credly.com/badges/YOUR-A-PLUS-ID" target="_blank">
+      <img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+" style="height: 60px;" />
+    </a>
+
+    <a href="https://www.credly.com/badges/YOUR-NETWORK-PLUS-ID" target="_blank">
+      <img src="/assets/icons/comptia-network-plus.png" alt="Network+" style="height: 60px;" />
+    </a>
+
+    <a href="https://www.credly.com/badges/YOUR-SECURITY-PLUS-ID" target="_blank">
+      <img src="/assets/icons/comptia-security-plus.png" alt="Security+" style="height: 60px;" />
+    </a>
+
+    <a href="https://www.credly.com/badges/YOUR-ISC2-ID" target="_blank">
+      <img src="/assets/icons/isc2-cc.png" alt="ISC2 Certified in Cybersecurity" style="height: 60px;" />
+    </a>
+
+    <a href="https://www.credly.com/badges/YOUR-LPIC-ID" target="_blank">
+      <img src="/assets/icons/linux-essentials.png" alt="Linux Essentials" style="height: 60px;" />
+    </a>
+
+  </div>
 </div>
 
 <div class="section" id="labs">

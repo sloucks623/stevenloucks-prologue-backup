@@ -111,8 +111,7 @@ title: Steven Loucks – Cybersecurity Portfolio
   </p>
 </div>
 
-
-   
+<!-- CERTIFICATIONS SECTION -->
 <div class="section" id="certs">
   <h2>Certifications</h2>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 1rem;">
@@ -140,13 +139,7 @@ title: Steven Loucks – Cybersecurity Portfolio
   </div>
 </div>
 
-<!-- Leave this line below -->
-<div class="section" id="labs">
-
-
-  </div>
-</div>
-
+<!-- LABS SECTION -->
 <div class="section" id="labs">
   <h2>Lab Projects</h2>
   <div class="card-grid">

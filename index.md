@@ -139,29 +139,37 @@ title: Steven Loucks – Cybersecurity Portfolio
 </div>
 
 <!-- CERTIFICATIONS SECTION -->
+<!-- CERTIFICATIONS SECTION -->
 <div class="section" id="certs">
   <h2>Certifications</h2>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 1rem;">
 
-    <a href="#">
+    <a href="https://www.credly.com/badges/b131130a-1f81-4d02-891d-f7e772d02c3d/public_url" target="_blank">
       <img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+" style="height: 60px;" />
     </a>
 
-    <a href="#">
-      <img src="/assets/icons/comptia-network-plus.png" alt="Network+" style="height: 60px;" />
+    <a href="https://www.credly.com/badges/d8cd5829-4fda-407f-b1ac-f8cad9eacd8e/public_url" target="_blank">
+      <img src="/assets/icons/comptia-network-plus.png" alt="CompTIA Network+" style="height: 60px;" />
     </a>
 
-    <a href="#">
-      <img src="/assets/icons/comptia-security-plus.png" alt="Security+" style="height: 60px;" />
+    <a href="https://www.credly.com/badges/bfd3f1d4-239e-4ee4-a5db-327cfd884f82/public_url" target="_blank">
+      <img src="/assets/icons/comptia-security-plus.png" alt="CompTIA Security+" style="height: 60px;" />
     </a>
 
-    <a href="#">
-      <img src="/assets/icons/isc2-cc.png" alt="ISC2 CC" style="height: 60px;" />
-    </a>
-
-    <a href="#">
+    <a href="https://www.credly.com/badges/b0bf80d4-ce82-409f-9fbf-ce566e35f719/public_url" target="_blank">
       <img src="/assets/icons/linux-essentials.png" alt="Linux Essentials" style="height: 60px;" />
     </a>
+
+    <a href="https://www.credly.com/badges/92342c6e-f7f4-4354-88ff-4c40185b68b0/public_url" target="_blank">
+      <img src="/assets/icons/isc2-cc.png" alt="ISC2 Certified in Cybersecurity" style="height: 60px;" />
+    </a>
+
+  </div>
+</div>
+
+<!-- Leave this line below -->
+<div class="section" id="labs">
+
 
   </div>
 </div>

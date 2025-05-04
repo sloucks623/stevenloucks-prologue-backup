@@ -74,6 +74,18 @@ This lab is designed to simulate a real-world Tier 1 SOC environment using **ope
 | **Windows 10 VM** | Simulates an endpoint, generates real attack telemetry via Sysmon |
 
 ### 🔁 How It Works
+### 🚧 Status
+
+> ✅ Part 2 complete: Endpoint telemetry pipeline active and ready for detection testing  
+> 🔜 Coming next: Executing test attacks and analyzing alert behavior
+
+---
+
+### 🪜 Part 2: Step-by-Step Breakdown
+
+1. Prepare the Windows 10 VM...
+2. Install Sysmon...
+...
 
 1. A simulated endpoint (Windows 10 + Sysmon) triggers a suspicious event (e.g., Mimikatz).
 2. **Wazuh** detects the event and forwards it for analysis.

@@ -138,6 +138,34 @@ title: Steven Loucks – Cybersecurity Portfolio
   </div>
 </div>
 
+<!-- CERTIFICATIONS SECTION -->
+<div class="section" id="certs">
+  <h2>Certifications</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 1rem;">
+
+    <a href="#">
+      <img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+" style="height: 60px;" />
+    </a>
+
+    <a href="#">
+      <img src="/assets/icons/comptia-network-plus.png" alt="Network+" style="height: 60px;" />
+    </a>
+
+    <a href="#">
+      <img src="/assets/icons/comptia-security-plus.png" alt="Security+" style="height: 60px;" />
+    </a>
+
+    <a href="#">
+      <img src="/assets/icons/isc2-cc.png" alt="ISC2 CC" style="height: 60px;" />
+    </a>
+
+    <a href="#">
+      <img src="/assets/icons/linux-essentials.png" alt="Linux Essentials" style="height: 60px;" />
+    </a>
+
+  </div>
+</div>
+
 <div class="section" id="labs">
   <h2>Lab Projects</h2>
   <div class="card-grid">

@@ -85,99 +85,34 @@ title: Steven Loucks – Cybersecurity Portfolio
 <div class="hero">
   <h1>Steven Loucks</h1>
   <p>Cybersecurity Student | Cloud Enthusiast | Lab Builder</p>
-</div>
-
-<div class="section">
-  <h2>Certifications</h2>
-
-  <h3 style="color: #ddd; margin-top: 1.5rem;">CompTIA Certifications</h3>
-
-  <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-    <a href="https://www.credly.com/badges/YOUR-A-PLUS-BADGE-ID" target="_blank"><img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+" style="height: 40px; margin-right: 1rem;" /></a>
-    <div>
-      <strong>CompTIA A+</strong><br />
-      Core IT support, hardware, OS, and troubleshooting.<br />
-      <a href="#" class="button" style="margin-left: auto;">🏅</a>
-    </div>
-  </div>
-
-  <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-    <a href="https://www.credly.com/badges/YOUR-NETWORK-PLUS-BADGE-ID" target="_blank"><img src="/assets/icons/comptia-network-plus.png" alt="CompTIA Network+" style="height: 40px; margin-right: 1rem;" /></a>
-    <div>
-      <strong>CompTIA Network+</strong><br />
-      Networking fundamentals, cabling, protocols, and security.<br />
-      <a href="#" class="button" style="margin-left: auto;">🏅</a>
-    </div>
-  </div>
-
-  <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-    <a href="https://www.credly.com/badges/YOUR-SECURITY-PLUS-BADGE-ID" target="_blank"><img src="/assets/icons/comptia-security-plus.png" alt="CompTIA Security+" style="height: 40px; margin-right: 1rem;" /></a>
-    <div>
-      <strong>CompTIA Security+</strong><br />
-      Threat analysis, cryptography, risk management, and secure architecture.<br />
-      <a href="#" class="button" style="margin-left: auto;">🏅</a>
-    </div>
-  </div>
-
-  <h3 style="color: #ddd; margin-top: 2rem;">ISC² Certification</h3>
-
-  <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-    <a href="https://www.credly.com/badges/YOUR-ISC2-CC-BADGE-ID" target="_blank"><img src="/assets/icons/isc2-cc.png" alt="ISC² CC" style="height: 40px; margin-right: 1rem;" /></a>
-    <div>
-      <strong>ISC² Certified in Cybersecurity (CC)</strong><br />
-      Cybersecurity principles, IAM, network security, and secure practices.<br />
-      <a href="#" class="button" style="margin-left: auto;">🏅</a>
-    </div>
-  </div>
-
-  <h3 style="color: #ddd; margin-top: 2rem;">LPI Certification</h3>
-
-  <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-    <a href="https://www.credly.com/badges/YOUR-LINUX-ESSENTIALS-BADGE-ID" target="_blank"><img src="/assets/icons/linux-essentials.png" alt="Linux Essentials" style="height: 40px; margin-right: 1rem;" /></a>
-    <div>
-      <strong>Linux Essentials (LPI)</strong><br />
-      Linux CLI, permissions, shell scripting, and system fundamentals.<br />
-      <a href="#" class="button" style="margin-left: auto;">🏅</a>
-    </div>
-  </div>
-</div>
-
-<div class="section">
-  <h2>Lab Projects</h2>
-  <div class="card-grid">
-
-    <div class="card">
-      <h3>Active Directory Lab</h3>
-      <p>Windows Server, DNS, DHCP, and AD Users/Groups.</p>
-      <a class="button" href="#">View Project</a>
-    </div>
-
-    <div class="card">
-      <h3>Kali Recon Lab</h3>
-      <p>Nmap, Dirb, Nikto, and basic web scanning techniques.</p>
-      <a class="button" href="#">View Project</a>
-    </div>
-
-    <div class="card">
-      <h3>SOC Automation Lab</h3>
-      <p>Shuffle, Elastic Stack, and scripting for alert triage.</p>
-      <a class="button" href="#">View Project</a>
-    </div>
-
-  </div>
-</div>
-
-<div class="section">
-  <h2>Resume & Contact</h2>
-  <p>
-    <a class="button" href="resume.pdf" target="_blank">Download Resume</a>
-    &nbsp;
-    <a class="button" href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">LinkedIn</a>
-    &nbsp;
-    <a class="button" href="https://github.com/StevenLoucks" target="_blank">GitHub</a>
+  <p style="text-align: center; font-size: 1.1rem; color: #ccc;">
+    I’m a U.S. Navy veteran and Cybersecurity student at WGU, building hands-on labs and professional skills for a career in cyber defense and cloud security.
   </p>
 </div>
 
-<footer>
-  &copy; 2025 Steven Loucks — Built with GitHub Pages & Midnight Theme
-</footer>
+<div class="section" id="about">
+  <h2>My Journey into Cybersecurity</h2>
+  <p>
+    After more than two decades operating tower cranes on high-risk job sites, managing Domino’s Pizza stores, and owning a luxury auto transport company, I began a strategic career transition into cybersecurity. I bring with me a mindset built on safety, accountability, and problem-solving under pressure—traits I now apply to digital defense and automation.
+  </p>
+  <p>
+    I’m currently pursuing a Bachelor of Science in Cybersecurity and Information Assurance at Western Governors University (WGU), with a hands-on approach to building, testing, and documenting my own home labs. My goal is to enter the industry prepared—with both real experience and a strong foundation in security principles, systems, and tools.
+  </p>
+</div>
+
+<!-- Future insert: Why Cybersecurity Now section goes here -->
+
+<nav style="text-align: center; margin: 2rem 0;">
+  <a href="#certs" style="margin-right: 1rem;">Certifications</a>
+  <a href="#labs" style="margin-right: 1rem;">Labs</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="section">
+  <h2>Featured Lab</h2>
+  <div class="card" style="margin: auto; max-width: 500px;">
+    <h3>SOC Automation Lab</h3>
+    <p>Integrated Shuffle with Elastic Stack and Slack for automated incident triage in a home lab.</p>
+    <a class="button" href="/labs/soc-automation.md">View Lab</a>
+  </div>
+</div>

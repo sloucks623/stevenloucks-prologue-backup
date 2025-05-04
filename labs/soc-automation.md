@@ -623,3 +623,83 @@ In Part 5, we enhance our SOC capabilities by refining telemetry collection and 
 - Enhance telemetry collection for better threat visibility.
 - Implement custom detection rules to identify obfuscated threats.
 - Validate the effectiveness of custom rules in detecting advanced attack techniques.
+## 📌 Part 5: Advanced Telemetry & Custom Alerting
+
+🎥 [Watch Part 5](https://youtu.be/GNXK00QapjQ?si=P2KyGpLFmAk9K0PO)
+
+### 🧭 Overview
+
+In Part 5, we enhance our SOC capabilities by refining telemetry collection and implementing custom alerting mechanisms. This involves configuring Wazuh to ingest detailed Sysmon logs and creating rules to detect obfuscated threats, such as renamed Mimikatz executables.
+
+### 🪜 Step-by-Step Breakdown
+
+#### 🛠️ Step 1: Configure Wazuh to Ingest Sysmon Logs
+- **Objective**: Ensure Wazuh receives detailed telemetry from Sysmon.
+- **Action**:
+  - Modify the `ossec.conf` file on the Wazuh agent to include the Sysmon log source.
+  - Restart the Wazuh agent to apply changes.
+- **Result**: Wazuh now ingests Sysmon logs, providing granular visibility into system activities.
+
+#### 🧪 Step 2: Simulate an Obfuscated Attack
+- **Objective**: Test detection of a renamed malicious executable.
+- **Action**:
+  - On the Windows 10 VM, download Mimikatz and rename the executable to a non-descriptive name (e.g., `notavirus.exe`).
+  - Execute the renamed file to simulate an attack.
+- **Result**: Sysmon logs the activity, but default Wazuh rules may not flag it due to the changed filename.
+
+#### 🧾 Step 3: Create a Custom Detection Rule in Wazuh
+- **Objective**: Detect Mimikatz regardless of the executable name.
+- **Action**:
+  - In Wazuh, create a custom rule in the `local_rules.xml` file:
+    ```xml
+    <rule id="100003" level="15">
+      <if_sid>61603</if_sid>
+      <field name="win.eventdata.originalFileName">mimikatz.exe</field>
+      <description>Obfuscated Mimikatz Execution Detected</description>
+      <mitre>
+        <id>T1003</id>
+      </mitre>
+    </rule>
+    ```
+  - Restart Wazuh Manager to apply the new rule.
+- **Result**: Wazuh can now detect Mimikatz execution based on the original filename, even if the file has been renamed.
+
+#### 🔁 Step 4: Validate the Custom Rule
+- **Objective**: Ensure the new rule functions correctly.
+- **Action**:
+  - Re-execute the renamed Mimikatz file on the Windows VM.
+  - Monitor Wazuh alerts to confirm detection.
+- **Result**: An alert is generated, indicating successful detection of the obfuscated Mimikatz execution.
+
+### 🎯 Learning Objectives
+
+- Enhance telemetry collection for better threat visibility.
+- Implement custom detection rules to identify obfuscated threats.
+- Validate the effectiveness of custom rules in detecting advanced attack techniques.
+
+---
+
+## 🖼️ Supporting Diagrams & Slides
+
+This section contains visual aids and reference materials used throughout the SOC Automation Home Lab.
+
+### 🧱 Lab Architecture Diagram
+
+![SOC Lab Architecture Diagram](assets/images/soc-architecture.png)
+
+> *Visual overview of how Wazuh, Shuffle, TheHive, and Sysmon integrate.*
+
+---
+
+### 🔁 Automation Workflow Diagram
+
+![SOC Automation Flow](assets/images/shuffle-workflow.png)
+
+> *Step-by-step automation: from alert detection to enrichment and case creation.*
+
+---
+
+### 📂 Presentation Slides
+
+- [SOC Automation Lab – Slide Deck (PDF)](assets/slides/soc-lab-summary.pdf)
+- [Wazuh Rule Customization Cheatsheet (PDF)](assets/slides/wazuh-rules-cheatsheet.pdf)

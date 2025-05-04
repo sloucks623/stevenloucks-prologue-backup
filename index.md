@@ -100,7 +100,15 @@ title: Steven Loucks – Cybersecurity Portfolio
   </p>
 </div>
 
-<!-- Future insert: Why Cybersecurity Now section goes here -->
+<div class="section" id="why-cyber">
+  <h2>Why Cybersecurity Now?</h2>
+  <p>
+    Cybersecurity isn’t just a career shift for me—it’s a natural evolution. I’ve spent over 20 years solving high-stakes problems, leading teams, and securing physical systems. Now, I apply that same mindset to protecting digital ones.
+  </p>
+  <p>
+    Through labs, certifications, and hands-on learning at WGU, I’m building the skills needed to contribute immediately in areas like SOC operations, network defense, and security automation.
+  </p>
+</div>
 
 <nav style="text-align: center; margin: 2rem 0;">
   <a href="#certs" style="margin-right: 1rem;">Certifications</a>
@@ -108,11 +116,26 @@ title: Steven Loucks – Cybersecurity Portfolio
   <a href="#contact">Contact</a>
 </nav>
 
-<div class="section">
-  <h2>Featured Lab</h2>
-  <div class="card" style="margin: auto; max-width: 500px;">
-    <h3>SOC Automation Lab</h3>
-    <p>Integrated Shuffle with Elastic Stack and Slack for automated incident triage in a home lab.</p>
-    <a class="button" href="/labs/soc-automation.md">View Lab</a>
+<div class="section" id="labs">
+  <h2>Lab Projects</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>SOC Automation Project</h3>
+      <p>Integrated Shuffle with Elastic Stack and Slack to streamline alert triage and SOC workflow automation.</p>
+      <a class="button" href="/labs/soc-automation.md">View Lab</a>
+    </div>
+
+    <div class="card">
+      <h3>Active Directory Lab 1.0</h3>
+      <p>Set up a basic Windows AD environment with domain controller, user/group configuration, DNS, and DHCP.</p>
+      <a class="button" href="/labs/ad-lab-1.md">View Lab</a>
+    </div>
+
+    <div class="card">
+      <h3>Active Directory Lab 2.0</h3>
+      <p>Expanded AD lab with organizational units, GPOs, PowerShell automation, and network segmentation.</p>
+      <a class="button" href="/labs/ad-lab-2.md">View Lab</a>
+    </div>
   </div>
+</div>
 </div>

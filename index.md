@@ -4,6 +4,11 @@ title: Steven Loucks – Cybersecurity Portfolio
 ---
 
 <style>
+  body {
+    background-color: #1d1f21;
+    color: #ddd;
+  }
+
   .hero {
     text-align: center;
     margin: 2rem auto;
@@ -11,17 +16,19 @@ title: Steven Loucks – Cybersecurity Portfolio
 
   .hero h1 {
     font-size: 2.5rem;
+    color: #ffffff;
     margin-bottom: 0.25rem;
   }
 
   .hero p {
-    font-size: 1.2rem;
-    color: #ccc;
+    font-size: 1.1rem;
+    color: #bbb;
   }
 
   .section {
     margin: 2rem auto;
-    max-width: 800px;
+    max-width: 900px;
+    padding: 1rem;
   }
 
   .card-grid {
@@ -32,27 +39,38 @@ title: Steven Loucks – Cybersecurity Portfolio
   }
 
   .card {
-    background: #1f1f1f;
+    background: #2d2f33;
     padding: 1rem;
-    border-radius: 8px;
+    border-radius: 10px;
     flex: 1 1 250px;
     text-align: center;
-    border: 1px solid #333;
+    border: 1px solid #444;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   }
 
   .card img {
-    height: 32px;
+    height: 40px;
     margin-bottom: 0.5rem;
+  }
+
+  .card h3 {
+    color: #fff;
+    margin: 0.5rem 0;
   }
 
   .button {
     display: inline-block;
     margin-top: 0.5rem;
-    padding: 0.4rem 1rem;
+    padding: 0.5rem 1rem;
     background: #007acc;
     color: white;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 5px;
+    transition: background 0.2s ease-in-out;
+  }
+
+  .button:hover {
+    background: #005fa3;
   }
 
   footer {
@@ -60,7 +78,7 @@ title: Steven Loucks – Cybersecurity Portfolio
     padding: 1rem;
     text-align: center;
     font-size: 0.9rem;
-    color: #777;
+    color: #888;
   }
 </style>
 
@@ -71,84 +89,56 @@ title: Steven Loucks – Cybersecurity Portfolio
 
 <div class="section">
   <h2>Certifications</h2>
-  <div class="card-grid">
-  <div class="section">
-  <h2>Certifications</h2>
-  <div class="card-grid">
 
-    <div class="card">
-      <img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+ Icon" />
-      <h3>CompTIA A+</h3>
-      <p>Core IT support, OS, hardware, and troubleshooting.</p>
-      <a class="button" href="#">View Badge</a>
+  <h3 style="color: #ddd; margin-top: 1.5rem;">CompTIA Certifications</h3>
+
+  <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+    <img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+" style="height: 40px; margin-right: 1rem;" />
+    <div>
+      <strong>CompTIA A+</strong><br />
+      Core IT support, hardware, OS, and troubleshooting.<br />
+      <a href="#" class="button" style="margin-top: 0.3rem;">View Badge</a>
     </div>
-
-    <div class="card">
-      <img src="/assets/icons/comptia-network-plus.png" alt="CompTIA Network+ Icon" />
-      <h3>CompTIA Network+</h3>
-      <p>Network design, protocols, and security fundamentals.</p>
-      <a class="button" href="#">View Badge</a>
-    </div>
-
-    <div class="card">
-      <img src="/assets/icons/comptia-security-plus.png" alt="CompTIA Security+ Icon" />
-      <h3>CompTIA Security+</h3>
-      <p>Risk management, threats, and cyber defense.</p>
-      <a class="button" href="#">View Badge</a>
-    </div>
-
-    <div class="card">
-      <img src="/assets/icons/isc2-cc.png" alt="ISC² Certified in Cybersecurity Icon" />
-      <h3>ISC² CC</h3>
-      <p>Cybersecurity principles, access control, and security operations.</p>
-      <a class="button" href="#">View Badge</a>
-    </div>
-
-    <div class="card">
-      <img src="/assets/icons/linux-essentials.png" alt="Linux Essentials Icon" />
-      <h3>Linux Essentials (LPI)</h3>
-      <p>Linux command line, permissions, package management, and user roles.</p>
-      <a class="button" href="#">View Badge</a>
-    </div>
-
   </div>
-</div>
 
-    <div class="card">
-      <img src="/assets/icons/comptia-a-plus.png" alt="A+ Icon" />
-      <h3>CompTIA A+</h3>
-      <p>Core IT support, OS, hardware, and troubleshooting.</p>
-      <a class="button" href="#">View Badge</a>
+  <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+    <img src="/assets/icons/comptia-network-plus.png" alt="Network+" style="height: 40px; margin-right: 1rem;" />
+    <div>
+      <strong>CompTIA Network+</strong><br />
+      Networking fundamentals, cabling, protocols, and security.<br />
+      <a href="#" class="button" style="margin-top: 0.3rem;">View Badge</a>
     </div>
+  </div>
 
-    <div class="card">
-      <img src="/assets/icons/comptia-network-plus.png" alt="Network+ Icon" />
-      <h3>CompTIA Network+</h3>
-      <p>Network design, protocols, and security fundamentals.</p>
-      <a class="button" href="#">View Badge</a>
+  <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+    <img src="/assets/icons/comptia-security-plus.png" alt="Security+" style="height: 40px; margin-right: 1rem;" />
+    <div>
+      <strong>CompTIA Security+</strong><br />
+      Threat analysis, cryptography, risk management, and secure architecture.<br />
+      <a href="#" class="button" style="margin-top: 0.3rem;">View Badge</a>
     </div>
+  </div>
 
-    <div class="card">
-      <img src="/assets/icons/securityplus.png" alt="Security+ Icon" />
-      <h3>CompTIA Security+</h3>
-      <p>Risk management, threats, and cyber defense.</p>
-      <a class="button" href="#">View Badge</a>
+  <h3 style="color: #ddd; margin-top: 2rem;">ISC² Certification</h3>
+
+  <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+    <img src="/assets/icons/isc2-cc.png" alt="ISC² CC" style="height: 40px; margin-right: 1rem;" />
+    <div>
+      <strong>ISC² Certified in Cybersecurity (CC)</strong><br />
+      Cybersecurity principles, IAM, network security, and secure practices.<br />
+      <a href="#" class="button" style="margin-top: 0.3rem;">View Badge</a>
     </div>
+  </div>
 
-    <div class="card">
-      <img src="/assets/icons/isc2.png" alt="ISC² Icon" />
-      <h3>ISC² CC</h3>
-      <p>Cybersecurity principles, access control, and policies.</p>
-      <a class="button" href="#">View Badge</a>
+  <h3 style="color: #ddd; margin-top: 2rem;">LPI Certification</h3>
+
+  <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+    <img src="/assets/icons/linux-essentials.png" alt="Linux Essentials" style="height: 40px; margin-right: 1rem;" />
+    <div>
+      <strong>Linux Essentials (LPI)</strong><br />
+      Linux CLI, permissions, shell scripting, and system fundamentals.<br />
+      <a href="#" class="button" style="margin-top: 0.3rem;">View Badge</a>
     </div>
-
-    <div class="card">
-      <img src="/assets/icons/lpic.png" alt="LPIC Icon" />
-      <h3>LPIC</h3>
-      <p>Linux CLI, permissions, and basic administration.</p>
-      <a class="button" href="#">View Badge</a>
-    </div>
-
   </div>
 </div>
 
@@ -189,5 +179,5 @@ title: Steven Loucks – Cybersecurity Portfolio
 </div>
 
 <footer>
-  &copy; 2025 Steven Loucks — Built with GitHub Pages & Slate Theme
+  &copy; 2025 Steven Loucks — Built with GitHub Pages & Midnight Theme
 </footer>

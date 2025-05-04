@@ -103,3 +103,23 @@ This lab is designed to simulate a real-world Tier 1 SOC environment using **ope
 
 > ✅ Part 1 complete: Base architecture, data flow, and automation triggers established  
 > 🔜 Coming next: Testing real-world attack scenarios (e.g., Mimikatz) to validate pipeline
+---
+
+### 🪜 Part 2: Step-by-Step Breakdown
+
+#### ✅ Goal: Get your Windows endpoint to forward Sysmon logs into Wazuh
+
+---
+
+#### 🪜 Step 1: Prepare the Windows 10 Virtual Machine
+- Set up a fresh **Windows 10 VM**
+- (Optional) Install **VirtualBox Guest Additions** or **VMware Tools** for easier clipboard/file sharing
+
+---
+
+#### 🪜 Step 2: Install Sysmon
+- Download `Sysmon.exe` from Microsoft’s Sysinternals Suite
+- Use a trusted config file like `sysmon-config.xml` from [SwiftOnSecurity’s GitHub](https://github.com/SwiftOnSecurity/sysmon-config)
+- Install using:
+  ```powershell
+  sysmon.exe -accepteula -i sysmon-config.xml

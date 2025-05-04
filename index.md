@@ -93,51 +93,51 @@ title: Steven Loucks – Cybersecurity Portfolio
   <h3 style="color: #ddd; margin-top: 1.5rem;">CompTIA Certifications</h3>
 
   <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-    <img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+" style="height: 40px; margin-right: 1rem;" />
+    <a href="https://www.credly.com/badges/YOUR-A-PLUS-BADGE-ID" target="_blank"><img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+" style="height: 40px; margin-right: 1rem;" /></a>
     <div>
       <strong>CompTIA A+</strong><br />
       Core IT support, hardware, OS, and troubleshooting.<br />
-      <a href="#" class="button" style="margin-top: 0.3rem;">View Badge</a>
+      <a href="#" class="button" style="margin-left: auto;">🏅</a>
     </div>
   </div>
 
   <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-    <img src="/assets/icons/comptia-network-plus.png" alt="Network+" style="height: 40px; margin-right: 1rem;" />
+    <a href="https://www.credly.com/badges/YOUR-NETWORK-PLUS-BADGE-ID" target="_blank"><img src="/assets/icons/comptia-network-plus.png" alt="CompTIA Network+" style="height: 40px; margin-right: 1rem;" /></a>
     <div>
       <strong>CompTIA Network+</strong><br />
       Networking fundamentals, cabling, protocols, and security.<br />
-      <a href="#" class="button" style="margin-top: 0.3rem;">View Badge</a>
+      <a href="#" class="button" style="margin-left: auto;">🏅</a>
     </div>
   </div>
 
   <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-    <img src="/assets/icons/comptia-security-plus.png" alt="Security+" style="height: 40px; margin-right: 1rem;" />
+    <a href="https://www.credly.com/badges/YOUR-SECURITY-PLUS-BADGE-ID" target="_blank"><img src="/assets/icons/comptia-security-plus.png" alt="CompTIA Security+" style="height: 40px; margin-right: 1rem;" /></a>
     <div>
       <strong>CompTIA Security+</strong><br />
       Threat analysis, cryptography, risk management, and secure architecture.<br />
-      <a href="#" class="button" style="margin-top: 0.3rem;">View Badge</a>
+      <a href="#" class="button" style="margin-left: auto;">🏅</a>
     </div>
   </div>
 
   <h3 style="color: #ddd; margin-top: 2rem;">ISC² Certification</h3>
 
   <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-    <img src="/assets/icons/isc2-cc.png" alt="ISC² CC" style="height: 40px; margin-right: 1rem;" />
+    <a href="https://www.credly.com/badges/YOUR-ISC2-CC-BADGE-ID" target="_blank"><img src="/assets/icons/isc2-cc.png" alt="ISC² CC" style="height: 40px; margin-right: 1rem;" /></a>
     <div>
       <strong>ISC² Certified in Cybersecurity (CC)</strong><br />
       Cybersecurity principles, IAM, network security, and secure practices.<br />
-      <a href="#" class="button" style="margin-top: 0.3rem;">View Badge</a>
+      <a href="#" class="button" style="margin-left: auto;">🏅</a>
     </div>
   </div>
 
   <h3 style="color: #ddd; margin-top: 2rem;">LPI Certification</h3>
 
   <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-    <img src="/assets/icons/linux-essentials.png" alt="Linux Essentials" style="height: 40px; margin-right: 1rem;" />
+    <a href="https://www.credly.com/badges/YOUR-LINUX-ESSENTIALS-BADGE-ID" target="_blank"><img src="/assets/icons/linux-essentials.png" alt="Linux Essentials" style="height: 40px; margin-right: 1rem;" /></a>
     <div>
       <strong>Linux Essentials (LPI)</strong><br />
       Linux CLI, permissions, shell scripting, and system fundamentals.<br />
-      <a href="#" class="button" style="margin-top: 0.3rem;">View Badge</a>
+      <a href="#" class="button" style="margin-left: auto;">🏅</a>
     </div>
   </div>
 </div>

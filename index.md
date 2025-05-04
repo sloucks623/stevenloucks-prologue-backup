@@ -90,6 +90,12 @@ title: Steven Loucks – Cybersecurity Portfolio
   </p>
 </div>
 
+<nav style="text-align: center; margin: 2rem 0;">
+  <a href="#certs" style="margin-right: 1rem;">Certifications</a>
+  <a href="#labs" style="margin-right: 1rem;">Labs</a>
+  <a href="#contact">Contact</a>
+</nav>
+
 <div class="section" id="about">
   <h2>My Journey into Cybersecurity</h2>
   <p>
@@ -110,15 +116,10 @@ title: Steven Loucks – Cybersecurity Portfolio
   </p>
 </div>
 
-<nav style="text-align: center; margin: 2rem 0;">
-  <a href="#certs" style="margin-right: 1rem;">Certifications</a>
-  <a href="#labs" style="margin-right: 1rem;">Labs</a>
-  <a href="#contact">Contact</a>
-</nav>
-
 <div class="section" id="labs">
   <h2>Lab Projects</h2>
   <div class="card-grid">
+
     <div class="card">
       <h3>SOC Automation Project</h3>
       <p>Integrated Shuffle with Elastic Stack and Slack to streamline alert triage and SOC workflow automation.</p>
@@ -136,6 +137,10 @@ title: Steven Loucks – Cybersecurity Portfolio
       <p>Expanded AD lab with organizational units, GPOs, PowerShell automation, and network segmentation.</p>
       <a class="button" href="/labs/ad-lab-2.md">View Lab</a>
     </div>
+
   </div>
 </div>
-</div>
+
+<footer>
+  &copy; 2025 Steven Loucks — Built with GitHub Pages & Midnight Theme
+</footer>

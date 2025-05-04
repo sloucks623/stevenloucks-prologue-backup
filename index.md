@@ -136,8 +136,7 @@ title: Steven Loucks – Cybersecurity Portfolio
       <img src="/assets/icons/isc2-cc.png" alt="ISC2 Certified in Cybersecurity" style="height: 60px;" />
     </a>
 
-  </p>
-</div>
+    </div>
 
 <!-- LABS SECTION -->
 <div class="section" id="labs">

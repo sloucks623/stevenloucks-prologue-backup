@@ -126,6 +126,38 @@ title: Steven Loucks – Cybersecurity Portfolio
     Through labs, certifications, and hands-on learning at WGU, I’m building the skills needed to contribute immediately in areas like SOC operations, network defense, and security automation.
   </p>
 </div> 
+<!-- FEATURED COMPTIA TOGGLE SECTION -->
+<div class="section toggle-wrapper" id="comptia-featured">
+  <h2>My CompTIA Certification Journey</h2>
+  <p style="color: #ccc;">Foundational and stackable certifications that demonstrate hands-on IT and security readiness.</p>
+
+  <img src="/assets/icons/comptia-neutral.png"
+       alt="CompTIA"
+       style="height: 120px; margin-top: 1rem; cursor: pointer;"
+       onclick="toggleComptiaGrid()" />
+
+  <div id="comptia-cert-grid">
+    <a href="https://www.credly.com/badges/b131130a-1f81-4d02-891d-f7e772d02c3d/public_url" target="_blank">
+      <img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+" style="height: 80px;" />
+    </a>
+
+    <a href="https://www.credly.com/badges/d8cd5829-4fda-407f-b1ac-f8cad9eacd8e/public_url" target="_blank">
+      <img src="/assets/icons/comptia-network-plus.png" alt="CompTIA Network+" style="height: 80px;" />
+    </a>
+
+    <a href="https://www.credly.com/badges/bfd3f1d4-239e-4ee4-a5db-327cfd884f82/public_url" target="_blank">
+      <img src="/assets/icons/comptia-security-plus.png" alt="CompTIA Security+" style="height: 80px;" />
+    </a>
+
+    <a href="https://www.credly.com/badges/b286fc02-58d9-41ad-8caa-0687e67fd53d/public_url" target="_blank">
+      <img src="/assets/icons/comptia-csis.png" alt="CompTIA CSIS" style="height: 80px;" />
+    </a>
+
+    <a href="https://www.credly.com/badges/796b7e03-c9f8-41f0-a4f6-a30bd534a5a3/public_url" target="_blank">
+      <img src="/assets/icons/comptia-csss.png" alt="CompTIA CSSS" style="height: 80px;" />
+    </a>
+  </div>
+</div>
 <!-- FEATURED COMPTIA SECTION -->
 <div class="section" id="comptia-featured" style="text-align: center;">
   <h2>My CompTIA Certification Journey</h2>

@@ -122,6 +122,21 @@ title: Steven Loucks – Cybersecurity Portfolio
     color: #00bfff;
     text-decoration: underline;
   }
+  .site-title, .site-title:visited {
+  color: #00bfff !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site-title:hover {
+  color: #66d9ff !important;
+  text-decoration: underline;
+}
+
+.breadcrumbs, .breadcrumb a {
+  color: #ccc !important;
+  font-size: 0.85rem;
+}
 </style>
 
 <div class="hero" style="background-color: #214d3b; padding: 2rem; border-radius: 12px;">

@@ -116,6 +116,11 @@ title: Steven Loucks – Cybersecurity Portfolio
   <h2>Certifications</h2>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 1rem;">
 
+   <div class="section" id="certs">
+  <h2>Certifications</h2>
+
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 1rem;">
+    <!-- CompTIA -->
     <a href="https://www.credly.com/badges/b131130a-1f81-4d02-891d-f7e772d02c3d/public_url" target="_blank">
       <img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+" style="height: 60px;" />
     </a>
@@ -128,20 +133,19 @@ title: Steven Loucks – Cybersecurity Portfolio
       <img src="/assets/icons/comptia-security-plus.png" alt="CompTIA Security+" style="height: 60px;" />
     </a>
 
+    <!-- Linux -->
     <a href="https://www.credly.com/badges/b0bf80d4-ce82-409f-9fbf-ce566e35f719/public_url" target="_blank">
       <img src="/assets/icons/linux-essentials.png" alt="Linux Essentials" style="height: 60px;" />
     </a>
 
-    <ul>
-  <li>
+    <!-- ISC² Certified in Cybersecurity -->
     <a href="https://www.credly.com/badges/85d10601-eb14-40bb-a7d5-ba9f25ca9c7a/public_url" target="_blank">
       <img src="https://images.credly.com/size/340x340/images/6848b581-a4e8-47f7-9f43-8b1d6d8fda82/image.png"
            alt="Certified in Cybersecurity (CC)"
-           style="height: 80px; vertical-align: middle; border-radius: 8px;">
-      Certified in Cybersecurity (CC) – ISC²
+           style="height: 80px; vertical-align: middle; border-radius: 8px;" />
     </a>
-  </li>
-</ul>
+  </div>
+</div>
 
 <!-- LABS SECTION -->
 <div class="section" id="labs">

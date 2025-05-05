@@ -109,6 +109,15 @@ title: Steven Loucks – Cybersecurity Portfolio
   <p>
     Through labs, certifications, and hands-on learning at WGU, I’m building the skills needed to contribute immediately in areas like SOC operations, network defense, and security automation.
   </p>
+</div> 
+<!-- FEATURED COMPTIA SECTION -->
+<div class="section" id="comptia-featured" style="text-align: center;">
+  <h2>My CompTIA Certification Journey</h2>
+  <p style="color: #ccc;">Foundational and stackable certifications that demonstrate hands-on IT and security readiness.</p>
+
+  <a href="#comptia-certs">
+    <img src="/assets/icons/comptia-neutral.png" alt="CompTIA" style="height: 120px; margin-top: 1rem;" />
+  </a>
 </div>
 
 <!-- CERTIFICATIONS SECTION -->

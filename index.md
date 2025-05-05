@@ -170,9 +170,10 @@ title: Steven Loucks – Cybersecurity Portfolio
        onclick="toggleIsc2Grid()" />
 
   <div id="isc2-cert-grid">
-    <a href="https://www.credly.com/badges/1cfbbf3f-ec91-4c17-90e0-41089a41c8bb/public_url" target="_blank" title="Certified in Cybersecurity (CC)">
-      <img src="/assets/icons/isc2-cc.png" alt="ISC² Certified in Cybersecurity (CC)" style="height: 80px; border-radius: 8px;" />
-    </a>
+    <a href="https://www.credly.com/badges/85d10601-eb14-40bb-a7d5-ba9f25ca9c7a/public_url" target="_blank" title="Certified in Cybersecurity (CC)">
+  <img src="/assets/icons/isc2-cc.png" alt="ISC² Certified in Cybersecurity (CC)" style="height: 80px; border-radius: 8px;" />
+</a>
+    
   </div>
 </div>
 

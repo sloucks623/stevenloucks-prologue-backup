@@ -81,13 +81,15 @@ title: Steven Loucks – Cybersecurity Portfolio
     margin-bottom: 2rem;
   }
 
-  #comptia-cert-grid {
+  #comptia-cert-grid,
+  #isc2-cert-grid {
     display: none;
     margin-top: 2rem;
     transition: all 0.3s ease-in-out;
   }
 
-  #comptia-cert-grid.show {
+  #comptia-cert-grid.show,
+  #isc2-cert-grid.show {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -135,58 +137,26 @@ title: Steven Loucks – Cybersecurity Portfolio
        alt="CompTIA"
        style="height: 120px; margin-top: 1rem; cursor: pointer;"
        onclick="toggleComptiaGrid()" />
-<script>
-  function toggleComptiaGrid() {
-    const grid = document.getElementById("comptia-cert-grid");
-    grid.classList.toggle("show");
-  }
 
-  function toggleIsc2Grid() {
-    const grid = document.getElementById("isc2-cert-grid");
-    grid.classList.toggle("show");
-  }
-</script>
   <div id="comptia-cert-grid">
-    <!-- A+ -->
     <a href="https://www.credly.com/badges/b131130a-1f81-4d02-891d-f7e772d02c3d/public_url" target="_blank">
       <img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+" style="height: 80px;" />
     </a>
-    <!-- Network+ -->
     <a href="https://www.credly.com/badges/d8cd5829-4fda-407f-b1ac-f8cad9eacd8e/public_url" target="_blank">
       <img src="/assets/icons/comptia-network-plus.png" alt="CompTIA Network+" style="height: 80px;" />
     </a>
-    <!-- Security+ -->
     <a href="https://www.credly.com/badges/bfd3f1d4-239e-4ee4-a5db-327cfd884f82/public_url" target="_blank">
       <img src="/assets/icons/comptia-security-plus.png" alt="CompTIA Security+" style="height: 80px;" />
     </a>
-    <!-- CIOS -->
     <a href="https://www.credly.com/badges/b286fc02-58d9-41ad-8caa-0687e67fd53d/public_url" target="_blank">
       <img src="/assets/icons/comptia-cios.png" alt="CompTIA CIOS" style="height: 80px;" />
     </a>
-    <!-- CSIS -->
     <a href="https://www.credly.com/badges/796b7e03-c9f8-41f0-a4f6-a30bd534a5a3/public_url" target="_blank">
       <img src="/assets/icons/comptia-csis.png" alt="CompTIA CSIS" style="height: 80px;" />
     </a>
   </div>
 </div>
-<!-- FEATURED ISC² TOGGLE SECTION -->
-<div class="section toggle-wrapper" id="isc2-featured">
-  <h2>ISC² Certifications</h2>
-  <p style="color: #ccc; font-size: 1.05rem;">Entry-level and advanced credentials for cybersecurity professionals from ISC².</p>
 
-  <img src="/assets/icons/isc2-neutral.png"
-       alt="ISC² Certifications"
-       style="height: 100px; margin-top: 1rem; cursor: pointer;"
-       onclick="toggleIsc2Grid()" />
-
-  <div style="text-align: center;">
-  <a href="https://www.credly.com/badges/85d10601-eb14-40bb-a7d5-ba9f25ca9c7a/public_url" target="_blank" title="Certified in Cybersecurity (CC) – ISC²">
-    <img src="/assets/icons/isc2-cc.png"
-         alt="ISC² Certified in Cybersecurity (CC)"
-         style="height: 80px; border-radius: 8px;" />
-  </a>
-  <div style="color: #aaa; font-size: 0.9rem; margin-top: 0.3rem;">ISC² – Certified in Cybersecurity (CC)</div>
-</div>
 <!-- FEATURED ISC² TOGGLE SECTION -->
 <div class="section toggle-wrapper" id="isc2-featured">
   <h2>ISC² Certifications</h2>
@@ -200,31 +170,18 @@ title: Steven Loucks – Cybersecurity Portfolio
        onclick="toggleIsc2Grid()" />
 
   <div id="isc2-cert-grid">
-    <a href="https://www.credly.com/badges/1cfbbf3f-ec91-4c17-90e0-41089a41c8bb/public_url"
-       target="_blank"
-       title="Certified in Cybersecurity (CC)">
-      <img src="/assets/icons/isc2-cc.png"
-           alt="ISC² Certified in Cybersecurity (CC)"
-           style="height: 80px; border-radius: 8px;" />
+    <a href="https://www.credly.com/badges/1cfbbf3f-ec91-4c17-90e0-41089a41c8bb/public_url" target="_blank" title="Certified in Cybersecurity (CC)">
+      <img src="/assets/icons/isc2-cc.png" alt="ISC² Certified in Cybersecurity (CC)" style="height: 80px; border-radius: 8px;" />
     </a>
   </div>
 </div>
+
 <!-- OTHER CERTIFICATIONS SECTION -->
 <div class="section" id="certs">
   <h2>Other Certifications</h2>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 1rem;">
-    <!-- Linux -->
     <a href="https://www.credly.com/badges/b0bf80d4-ce82-409f-9fbf-ce566e35f719/public_url" target="_blank">
       <img src="/assets/icons/linux-essentials.png" alt="Linux Essentials" style="height: 60px;" />
-    </a>
-    <div style="text-align: center;">
-  <a href="https://www.credly.com/badges/85d10601-eb14-40bb-a7d5-ba9f25ca9c7a/public_url" target="_blank" title="Certified in Cybersecurity (CC) – ISC²">
-    <img src="/assets/icons/isc2-cc.png"
-         alt="ISC² Certified in Cybersecurity (CC)"
-         style="height: 80px; border-radius: 8px;" />
-  </a>
-  <div style="color: #aaa; font-size: 0.9rem; margin-top: 0.3rem;">ISC² – Certified in Cybersecurity (CC)</div>
-</div>
     </a>
   </div>
 </div>
@@ -254,6 +211,11 @@ title: Steven Loucks – Cybersecurity Portfolio
 <script>
   function toggleComptiaGrid() {
     const grid = document.getElementById("comptia-cert-grid");
+    grid.classList.toggle("show");
+  }
+
+  function toggleIsc2Grid() {
+    const grid = document.getElementById("isc2-cert-grid");
     grid.classList.toggle("show");
   }
 </script>

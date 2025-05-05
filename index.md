@@ -74,7 +74,23 @@ title: Steven Loucks – Cybersecurity Portfolio
     text-align: center;
     font-size: 0.9rem;
     color: #888;
-  }
+  } .toggle-wrapper {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#comptia-cert-grid {
+  display: none;
+  margin-top: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+#comptia-cert-grid.show {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
 </style>
 
 <div class="hero">

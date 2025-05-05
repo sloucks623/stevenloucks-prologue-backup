@@ -133,9 +133,77 @@ layout: default title: Steven Loucks – Cybersecurity Portfolio
 </style><div class="hero">
   <h1>Steven Loucks</h1>
   <p>Cybersecurity Student | Cloud Enthusiast | Lab Builder</p>
-  <p>I’m a U.S. Navy veteran and Cybersecurity student at WGU, building hands-on labs and professional skills for a career in cyber defense and cloud security.</p>
+  <p style="text-align: center; font-size: 1.1rem; color: #eee;">
+    I’m a U.S. Navy veteran and Cybersecurity student at WGU, building hands-on labs and professional skills for a career in cyber defense and cloud security.
+  </p>
 </div><nav style="text-align: center; margin: 2rem 0;">
   <a href="#certs" class="nav-button">Certifications</a>
   <a href="#labs" class="nav-button">Labs</a>
   <a href="#contact" class="nav-button">Contact</a>
 </nav><div class="section" id="about">
+  <h2>My Journey into Cybersecurity</h2>
+  <p>
+    After more than two decades operating tower cranes on high-risk job sites, managing Domino’s Pizza stores, and owning a luxury auto transport company, I began a strategic career transition into cybersecurity. I bring with me a mindset built on safety, accountability, and problem-solving under pressure—traits I now apply to digital defense and automation.
+  </p>
+  <p>
+    I’m currently pursuing a Bachelor of Science in Cybersecurity and Information Assurance at Western Governors University (WGU), with a hands-on approach to building, testing, and documenting my own home labs. My goal is to enter the industry prepared—with both real experience and a strong foundation in security principles, systems, and tools.
+  </p>
+</div><div class="section" id="why-cyber">
+  <h2>Why Cybersecurity Now?</h2>
+  <p>
+    Cybersecurity isn’t just a career shift for me—it’s a natural evolution. I’ve spent over 20 years solving high-stakes problems, leading teams, and securing physical systems. Now, I apply that same mindset to protecting digital ones.
+  </p>
+  <p>
+    Through labs, certifications, and hands-on learning at WGU, I’m building the skills needed to contribute immediately in areas like SOC operations, network defense, and security automation.
+  </p>
+</div><!-- CERTIFICATIONS SECTION --><div class="section" id="certs">
+  <h2>Certifications</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 1rem;">
+    <a href="https://www.credly.com/badges/b131130a-1f81-4d02-891d-f7e772d02c3d/public_url" target="_blank">
+      <img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+" style="height: 60px;" />
+    </a>
+    <a href="https://www.credly.com/badges/d8cd5829-4fda-407f-b1ac-f8cad9eacd8e/public_url" target="_blank">
+      <img src="/assets/icons/comptia-network-plus.png" alt="CompTIA Network+" style="height: 60px;" />
+    </a>
+    <a href="https://www.credly.com/badges/bfd3f1d4-239e-4ee4-a5db-327cfd884f82/public_url" target="_blank">
+      <img src="/assets/icons/comptia-security-plus.png" alt="CompTIA Security+" style="height: 60px;" />
+    </a>
+    <a href="https://www.credly.com/badges/b0bf80d4-ce82-409f-9fbf-ce566e35f719/public_url" target="_blank">
+      <img src="/assets/icons/linux-essentials.png" alt="Linux Essentials" style="height: 60px;" />
+    </a>
+    <a href="https://www.credly.com/badges/85d10601-eb14-40bb-a7d5-ba9f25ca9c7a/public_url" target="_blank">
+      <img src="/assets/icons/isc2-cc.png" alt="ISC² Certified in Cybersecurity (CC)" style="height: 60px;" />
+    </a>
+  </div>
+</div><!-- LABS SECTION --><div class="section" id="labs">
+  <h2>Lab Projects</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>SOC Automation Project</h3>
+      <p>Integrated Shuffle with Elastic Stack and Slack to streamline alert triage and SOC workflow automation.</p>
+      <a class="button" href="/labs/soc-automation">View Lab</a>
+    </div>
+    <div class="card">
+      <h3>Active Directory Lab 1.0</h3>
+      <p>Set up a basic Windows AD environment with domain controller, user/group configuration, DNS, and DHCP.</p>
+      <a class="button" href="/labs/ad-lab-1">View Lab</a>
+    </div>
+    <div class="card">
+      <h3>Active Directory Lab 2.0</h3>
+      <p>Expanded AD lab with organizational units, GPOs, PowerShell automation, and network segmentation.</p>
+      <a class="button" href="/labs/ad-lab-2">View Lab</a>
+    </div>
+  </div>
+</div><script>
+  function toggleComptiaGrid() {
+    const grid = document.getElementById("comptia-cert-grid");
+    grid.classList.toggle("show");
+  }
+
+  function toggleIsc2Grid() {
+    const grid = document.getElementById("isc2-cert-grid");
+    grid.classList.toggle("show");
+  }
+</script><footer>
+  &copy; 2025 Steven Loucks — Built with GitHub Pages & Midnight Theme
+</footer>

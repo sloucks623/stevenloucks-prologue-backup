@@ -135,7 +135,17 @@ title: Steven Loucks – Cybersecurity Portfolio
        alt="CompTIA"
        style="height: 120px; margin-top: 1rem; cursor: pointer;"
        onclick="toggleComptiaGrid()" />
+<script>
+  function toggleComptiaGrid() {
+    const grid = document.getElementById("comptia-cert-grid");
+    grid.classList.toggle("show");
+  }
 
+  function toggleIsc2Grid() {
+    const grid = document.getElementById("isc2-cert-grid");
+    grid.classList.toggle("show");
+  }
+</script>
   <div id="comptia-cert-grid">
     <!-- A+ -->
     <a href="https://www.credly.com/badges/b131130a-1f81-4d02-891d-f7e772d02c3d/public_url" target="_blank">

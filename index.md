@@ -124,10 +124,10 @@ title: Steven Loucks – Cybersecurity Portfolio
   }
 </style>
 
-<div class="hero">
+<div class="hero" style="background: rgba(255, 255, 255, 0.05); padding: 1.5rem; border-radius: 12px;">
   <h1>Steven Loucks</h1>
   <p>Cybersecurity Student | Cloud Enthusiast | Lab Builder</p>
-  <p style="text-align: center; font-size: 1.1rem; color: #ccc;">
+  <p style="text-align: center; font-size: 1.1rem; color: #ddd;">
     I’m a U.S. Navy veteran and Cybersecurity student at WGU, building hands-on labs and professional skills for a career in cyber defense and cloud security.
   </p>
 </div>

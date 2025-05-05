@@ -133,6 +133,8 @@ layout: default title: Steven Loucks – Cybersecurity Portfolio
 </style><div class="hero">
   <h1>Steven Loucks</h1>
   <p>Cybersecurity Student | Cloud Enthusiast | Lab Builder</p>
+  <img src="/assets/icons/navy-veteran.png" alt="U.S. Navy Veteran Seal" style="height: 70px; margin-top: 1rem;" />
+  <img src="/assets/icons/wgu-logo.png" alt="Western Governors University Logo" style="height: 60px; margin: 0.5rem;" />
   <p style="text-align: center; font-size: 1.1rem; color: #eee;">
     I’m a U.S. Navy veteran and Cybersecurity student at WGU, building hands-on labs and professional skills for a career in cyber defense and cloud security.
   </p>
@@ -146,7 +148,7 @@ layout: default title: Steven Loucks – Cybersecurity Portfolio
     After more than two decades operating tower cranes on high-risk job sites, managing Domino’s Pizza stores, and owning a luxury auto transport company, I began a strategic career transition into cybersecurity. I bring with me a mindset built on safety, accountability, and problem-solving under pressure—traits I now apply to digital defense and automation.
   </p>
   <p>
-    I’m currently pursuing a Bachelor of Science in Cybersecurity and Information Assurance at Western Governors University (WGU), with a hands-on approach to building, testing, and documenting my own home labs. My goal is to enter the industry prepared—with both real experience and a strong foundation in security principles, systems, and tools.
+    I’m currently pursuing a Bachelor of Science in Cybersecurity and Information Assurance at Western Governors University (WGU), with a hands-on approach to building, testing, and documenting my own home labs. The program is ABET-accredited and designated a National Center of Academic Excellence in Cyber Defense (CAE-CD) by the NSA and DHS.
   </p>
 </div><div class="section" id="why-cyber">
   <h2>Why Cybersecurity Now?</h2>

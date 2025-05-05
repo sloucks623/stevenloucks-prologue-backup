@@ -245,7 +245,12 @@ title: Steven Loucks – Cybersecurity Portfolio
 
   </div>
 </div>
-
+<script>
+  function toggleComptiaGrid() {
+    const grid = document.getElementById("comptia-cert-grid");
+    grid.classList.toggle("show");
+  }
+</script>
 <footer>
   &copy; 2025 Steven Loucks — Built with GitHub Pages & Midnight Theme
 </footer>

@@ -106,9 +106,9 @@ title: Steven Loucks – Cybersecurity Portfolio
 </div>
 
 <nav style="text-align: center; margin: 2rem 0;">
-  <a href="#certs" style="margin-right: 1rem;">Certifications</a>
-  <a href="#labs" style="margin-right: 1rem;">Labs</a>
-  <a href="#contact">Contact</a>
+  <a href="#certs" class="nav-link">Certifications</a>
+  <a href="#labs" class="nav-link">Labs</a>
+  <a href="#contact" class="nav-link">Contact</a>
 </nav>
 
 <div class="section" id="about">

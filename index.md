@@ -129,19 +129,35 @@ title: Steven Loucks – Cybersecurity Portfolio
   <h2>Certifications</h2>
 
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 1rem;">
-    <!-- CompTIA -->
+    <!-- COMPTIA CERTIFICATION GRID -->
+<div id="comptia-certs" class="section" style="text-align: center;">
+  <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin-top: 2rem;">
+    <!-- A+ -->
     <a href="https://www.credly.com/badges/b131130a-1f81-4d02-891d-f7e772d02c3d/public_url" target="_blank">
-      <img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+" style="height: 60px;" />
+      <img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+" style="height: 80px;" />
     </a>
 
+    <!-- Network+ -->
     <a href="https://www.credly.com/badges/d8cd5829-4fda-407f-b1ac-f8cad9eacd8e/public_url" target="_blank">
-      <img src="/assets/icons/comptia-network-plus.png" alt="CompTIA Network+" style="height: 60px;" />
+      <img src="/assets/icons/comptia-network-plus.png" alt="CompTIA Network+" style="height: 80px;" />
     </a>
 
+    <!-- Security+ -->
     <a href="https://www.credly.com/badges/bfd3f1d4-239e-4ee4-a5db-327cfd884f82/public_url" target="_blank">
-      <img src="/assets/icons/comptia-security-plus.png" alt="CompTIA Security+" style="height: 60px;" />
+      <img src="/assets/icons/comptia-security-plus.png" alt="CompTIA Security+" style="height: 80px;" />
     </a>
 
+    <!-- CSIS -->
+    <a href="https://www.credly.com/badges/b286fc02-58d9-41ad-8caa-0687e67fd53d/public_url" target="_blank">
+      <img src="/assets/icons/comptia-csis.png" alt="CompTIA CSIS" style="height: 80px;" />
+    </a>
+
+    <!-- CSSS -->
+    <a href="https://www.credly.com/badges/796b7e03-c9f8-41f0-a4f6-a30bd534a5a3/public_url" target="_blank">
+      <img src="/assets/icons/comptia-csss.png" alt="CompTIA CSSS" style="height: 80px;" />
+    </a>
+  </div>
+</div>
     <!-- Linux -->
     <a href="https://www.credly.com/badges/b0bf80d4-ce82-409f-9fbf-ce566e35f719/public_url" target="_blank">
       <img src="/assets/icons/linux-essentials.png" alt="Linux Essentials" style="height: 60px;" />

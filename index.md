@@ -7,7 +7,21 @@ title: Steven Loucks – Cybersecurity Portfolio
   body {
     background-color: #1d1f21;
     color: #ddd;
-  }
+  }.nav-button {
+  display: inline-block;
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #007acc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background 0.2s ease-in-out;
+}
+
+.nav-button:hover {
+  background: #005fa3;
+}
 
   .hero {
     text-align: center;

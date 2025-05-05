@@ -3,18 +3,6 @@ layout: default
 title: Steven Loucks – Cybersecurity Portfolio
 ---
 
-.nav-link {
-  margin: 0 1rem;
-  color: #ddd;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 1.05rem;
-}
-
-.nav-link:hover {
-  color: #00bfff;
-  text-decoration: underline;
-}
 <style>
   body {
     background-color: #1d1f21;
@@ -107,6 +95,19 @@ title: Steven Loucks – Cybersecurity Portfolio
     justify-content: center;
     gap: 1.5rem;
   }
+
+  .nav-link {
+    margin: 0 1rem;
+    color: #ddd;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.05rem;
+  }
+
+  .nav-link:hover {
+    color: #00bfff;
+    text-decoration: underline;
+  }
 </style>
 
 <div class="hero">
@@ -183,9 +184,8 @@ title: Steven Loucks – Cybersecurity Portfolio
 
   <div id="isc2-cert-grid">
     <a href="https://www.credly.com/badges/85d10601-eb14-40bb-a7d5-ba9f25ca9c7a/public_url" target="_blank" title="Certified in Cybersecurity (CC)">
-  <img src="/assets/icons/isc2-cc.png" alt="ISC² Certified in Cybersecurity (CC)" style="height: 80px; border-radius: 8px;" />
-</a>
-    
+      <img src="/assets/icons/isc2-cc.png" alt="ISC² Certified in Cybersecurity (CC)" style="height: 80px; border-radius: 8px;" />
+    </a>
   </div>
 </div>
 

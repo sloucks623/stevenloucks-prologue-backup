@@ -133,8 +133,10 @@ layout: default title: Steven Loucks – Cybersecurity Portfolio
 </style><div class="hero">
   <h1>Steven Loucks</h1>
   <p>Cybersecurity Student | Cloud Enthusiast | Lab Builder</p>
-  <img src="/assets/icons/navy-veteran.png" alt="U.S. Navy Veteran Seal" style="height: 70px; margin-top: 1rem;" />
-  <img src="/assets/icons/wgu-logo.png" alt="Western Governors University Logo" style="height: 60px; margin: 0.5rem;" />
+  <div style="margin-top: 1rem;">
+    <img src="/assets/icons/navy-veteran.png" alt="U.S. Navy Veteran Badge" style="height: 60px; margin: 0.5rem; vertical-align: middle;" />
+    <img src="/assets/icons/wgu-logo.png" alt="Western Governors University Logo" style="height: 60px; margin: 0.5rem; vertical-align: middle;" />
+  </div>
   <p style="text-align: center; font-size: 1.1rem; color: #eee;">
     I’m a U.S. Navy veteran and Cybersecurity student at WGU, building hands-on labs and professional skills for a career in cyber defense and cloud security.
   </p>
@@ -170,11 +172,9 @@ layout: default title: Steven Loucks – Cybersecurity Portfolio
     <a href="https://www.credly.com/badges/bfd3f1d4-239e-4ee4-a5db-327cfd884f82/public_url" target="_blank">
       <img src="/assets/icons/comptia-security-plus.png" alt="CompTIA Security+" style="height: 60px;" />
     </a>
-    <!-- CIOS -->
     <a href="https://www.credly.com/badges/b286fc02-58d9-41ad-8caa-0687e67fd53d/public_url" target="_blank">
       <img src="/assets/icons/comptia-cios.png" alt="CompTIA CIOS" style="height: 60px;" />
     </a>
-    <!-- CSIS -->
     <a href="https://www.credly.com/badges/796b7e03-c9f8-41f0-a4f6-a30bd534a5a3/public_url" target="_blank">
       <img src="/assets/icons/comptia-csis.png" alt="CompTIA CSIS" style="height: 60px;" />
     </a>

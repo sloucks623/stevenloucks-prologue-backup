@@ -126,10 +126,12 @@ title: Steven Loucks – Cybersecurity Portfolio
     Through labs, certifications, and hands-on learning at WGU, I’m building the skills needed to contribute immediately in areas like SOC operations, network defense, and security automation.
   </p>
 </div> 
-<!-- FEATURED COMPTIA TOGGLE SECTION -->
+    </a>
+
+    <!-- FEATURED COMPTIA TOGGLE SECTION -->
 <div class="section toggle-wrapper" id="comptia-featured">
-  <h2>My CompTIA Certification Journey</h2>
-  <p style="color: #ccc;">Foundational and stackable certifications that demonstrate hands-on IT and security readiness.</p>
+  <h2>CompTIA Certifications (Core + Stackables)</h2>
+  <p style="color: #ccc; font-size: 1.05rem;">A growing collection of industry-recognized credentials in hardware, networking, security, and support.</p>
 
   <img src="/assets/icons/comptia-neutral.png"
        alt="CompTIA"
@@ -137,49 +139,6 @@ title: Steven Loucks – Cybersecurity Portfolio
        onclick="toggleComptiaGrid()" />
 
   <div id="comptia-cert-grid">
-    <a href="https://www.credly.com/badges/b131130a-1f81-4d02-891d-f7e772d02c3d/public_url" target="_blank">
-      <img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+" style="height: 80px;" />
-    </a>
-
-    <a href="https://www.credly.com/badges/d8cd5829-4fda-407f-b1ac-f8cad9eacd8e/public_url" target="_blank">
-      <img src="/assets/icons/comptia-network-plus.png" alt="CompTIA Network+" style="height: 80px;" />
-    </a>
-
-    <a href="https://www.credly.com/badges/bfd3f1d4-239e-4ee4-a5db-327cfd884f82/public_url" target="_blank">
-      <img src="/assets/icons/comptia-security-plus.png" alt="CompTIA Security+" style="height: 80px;" />
-    </a>
-
-    <a href="https://www.credly.com/badges/b286fc02-58d9-41ad-8caa-0687e67fd53d/public_url" target="_blank">
-      <img src="/assets/icons/comptia-csis.png" alt="CompTIA CSIS" style="height: 80px;" />
-    </a>
-
-    <a href="https://www.credly.com/badges/796b7e03-c9f8-41f0-a4f6-a30bd534a5a3/public_url" target="_blank">
-      <img src="/assets/icons/comptia-csss.png" alt="CompTIA CSSS" style="height: 80px;" />
-    </a>
-  </div>
-</div>
-<!-- FEATURED COMPTIA SECTION -->
-<div class="section" id="comptia-featured" style="text-align: center;">
-  <h2>My CompTIA Certification Journey</h2>
-  <p style="color: #ccc;">Foundational and stackable certifications that demonstrate hands-on IT and security readiness.</p>
-
-  <a href="#comptia-certs">
-    <img src="/assets/icons/comptia-neutral.png" alt="CompTIA" style="height: 120px; margin-top: 1rem;" />
-  </a>
-</div>
-
-<!-- CERTIFICATIONS SECTION -->
-<div class="section" id="certs">
-  <h2>Certifications</h2>
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 1rem;">
-
-   <div class="section" id="certs">
-  <h2>Certifications</h2>
-
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 1rem;">
-    <!-- COMPTIA CERTIFICATION GRID -->
-<div id="comptia-certs" class="section" style="text-align: center;">
-  <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin-top: 2rem;">
     <!-- A+ -->
     <a href="https://www.credly.com/badges/b131130a-1f81-4d02-891d-f7e772d02c3d/public_url" target="_blank">
       <img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+" style="height: 80px;" />
@@ -203,19 +162,6 @@ title: Steven Loucks – Cybersecurity Portfolio
     <!-- CSSS -->
     <a href="https://www.credly.com/badges/796b7e03-c9f8-41f0-a4f6-a30bd534a5a3/public_url" target="_blank">
       <img src="/assets/icons/comptia-csss.png" alt="CompTIA CSSS" style="height: 80px;" />
-    </a>
-  </div>
-</div>
-    <!-- Linux -->
-    <a href="https://www.credly.com/badges/b0bf80d4-ce82-409f-9fbf-ce566e35f719/public_url" target="_blank">
-      <img src="/assets/icons/linux-essentials.png" alt="Linux Essentials" style="height: 60px;" />
-    </a>
-
-    <!-- ISC² Certified in Cybersecurity -->
-    <a href="https://www.credly.com/badges/85d10601-eb14-40bb-a7d5-ba9f25ca9c7a/public_url" target="_blank">
-      <img src="https://images.credly.com/size/340x340/images/6848b581-a4e8-47f7-9f43-8b1d6d8fda82/image.png"
-           alt="Certified in Cybersecurity (CC)"
-           style="height: 80px; vertical-align: middle; border-radius: 8px;" />
     </a>
   </div>
 </div>

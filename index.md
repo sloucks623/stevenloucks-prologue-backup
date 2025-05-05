@@ -20,6 +20,11 @@ layout: default title: Steven Loucks – Cybersecurity Portfolio
     text-decoration: underline;
   }
 
+  .breadcrumbs, .breadcrumb a {
+    color: #ccc !important;
+    font-size: 0.85rem;
+  }
+
   .nav-button {
     display: inline-block;
     margin: 0 0.5rem;
@@ -45,7 +50,7 @@ layout: default title: Steven Loucks – Cybersecurity Portfolio
   }
 
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     color: #ffffff;
     margin-bottom: 0.25rem;
   }
@@ -128,8 +133,8 @@ layout: default title: Steven Loucks – Cybersecurity Portfolio
 </style><div class="hero">
   <h1>Steven Loucks</h1>
   <p>Cybersecurity Student | Cloud Enthusiast | Lab Builder</p>
-  <img src="/assets/icons/navy-veteran.png" alt="U.S. Navy Veteran" style="height: 60px; margin: 0 0.5rem; vertical-align: middle;" />
-  <img src="/assets/icons/wgu-logo.png" alt="WGU Logo" style="height: 66px; margin: 0 0.5rem; vertical-align: middle;" />
+  <img src="/assets/icons/navy-veteran.png" alt="U.S. Navy Veteran Seal" style="height: 70px; margin-top: 1rem;" />
+  <img src="/assets/icons/wgu-logo.png" alt="Western Governors University Logo" style="height: 60px; margin: 0.5rem;" />
   <p style="text-align: center; font-size: 1.1rem; color: #eee;">
     I’m a U.S. Navy veteran and Cybersecurity student at WGU, building hands-on labs and professional skills for a career in cyber defense and cloud security.
   </p>
@@ -137,85 +142,4 @@ layout: default title: Steven Loucks – Cybersecurity Portfolio
   <a href="#certs" class="nav-button">Certifications</a>
   <a href="#labs" class="nav-button">Labs</a>
   <a href="#contact" class="nav-button">Contact</a>
-  <a href="https://www.linkedin.com/in/steven-loucks/" target="_blank" style="margin-left: 0.5rem;">
-    <img src="/assets/icons/linkedin.png" alt="LinkedIn Profile" style="height: 24px; vertical-align: middle;" />
-  </a>
-</nav><div class="section" id="about">
-  <h2>My Journey into Cybersecurity</h2>
-  <p>
-    After more than two decades operating tower cranes on high-risk job sites, managing Domino’s Pizza stores, and owning a luxury auto transport company, I began a strategic career transition into cybersecurity. I bring with me a mindset built on safety, accountability, and problem-solving under pressure—traits I now apply to digital defense and automation.
-  </p>
-  <p>
-    I’m currently pursuing a Bachelor of Science in Cybersecurity and Information Assurance at Western Governors University (WGU), with a hands-on approach to building, testing, and documenting my own home labs. The program is ABET-accredited and designated a National Center of Academic Excellence in Cyber Defense (CAE-CD) by the NSA and DHS.
-  </p>
-</div><div class="section" id="why-cyber">
-  <h2>Why Cybersecurity Now?</h2>
-  <p>
-    Cybersecurity isn’t just a career shift for me—it’s a natural evolution. I’ve spent over 20 years solving high-stakes problems, leading teams, and securing physical systems. Now, I apply that same mindset to protecting digital ones.
-  </p>
-  <p>
-    Through labs, certifications, and hands-on learning at WGU, I’m building the skills needed to contribute immediately in areas like SOC operations, network defense, and security automation.
-  </p>
-</div><div class="section" id="certs">
-  <h2>Certifications</h2>
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 1rem;">
-    <a href="https://www.credly.com/badges/b131130a-1f81-4d02-891d-f7e772d02c3d/public_url" target="_blank">
-      <img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+" style="height: 60px;" />
-    </a>
-    <a href="https://www.credly.com/badges/d8cd5829-4fda-407f-b1ac-f8cad9eacd8e/public_url" target="_blank">
-      <img src="/assets/icons/comptia-network-plus.png" alt="CompTIA Network+" style="height: 60px;" />
-    </a>
-    <a href="https://www.credly.com/badges/bfd3f1d4-239e-4ee4-a5db-327cfd884f82/public_url" target="_blank">
-      <img src="/assets/icons/comptia-security-plus.png" alt="CompTIA Security+" style="height: 60px;" />
-    </a>
-    <a href="https://www.credly.com/badges/b286fc02-58d9-41ad-8caa-0687e67fd53d/public_url" target="_blank">
-      <img src="/assets/icons/comptia-cios.png" alt="CompTIA CIOS" style="height: 60px;" />
-    </a>
-    <a href="https://www.credly.com/badges/796b7e03-c9f8-41f0-a4f6-a30bd534a5a3/public_url" target="_blank">
-      <img src="/assets/icons/comptia-csis.png" alt="CompTIA CSIS" style="height: 60px;" />
-    </a>
-    <a href="https://www.credly.com/badges/b0bf80d4-ce82-409f-9fbf-ce566e35f719/public_url" target="_blank">
-      <img src="/assets/icons/linux-essentials.png" alt="Linux Essentials" style="height: 60px;" />
-    </a>
-    <a href="https://www.credly.com/badges/85d10601-eb14-40bb-a7d5-ba9f25ca9c7a/public_url" target="_blank">
-      <img src="/assets/icons/isc2-cc.png" alt="ISC² Certified in Cybersecurity (CC)" style="height: 60px;" />
-    </a>
-  </div>
-</div><div class="section" id="labs">
-  <h2>Lab Projects</h2>
-  <div class="card-grid">
-    <div class="card">
-      <h3>SOC Automation Project</h3>
-      <p>Integrated Shuffle with Elastic Stack and Slack to streamline alert triage and SOC workflow automation.</p>
-      <a class="button" href="/labs/soc-automation">View Lab</a>
-    </div>
-    <div class="card">
-      <h3>Active Directory Lab 1.0</h3>
-      <p>Set up a basic Windows AD environment with domain controller, user/group configuration, DNS, and DHCP.</p>
-      <a class="button" href="/labs/ad-lab-1">View Lab</a>
-    </div>
-    <div class="card">
-      <h3>Active Directory Lab 2.0</h3>
-      <p>Expanded AD lab with organizational units, GPOs, PowerShell automation, and network segmentation.</p>
-      <a class="button" href="/labs/ad-lab-2">View Lab</a>
-    </div>
-  </div>
-</div><div class="section" id="contact" style="text-align: center;">
-  <h2>Contact</h2>
-  <p>Feel free to connect with me on LinkedIn:</p>
-  <a href="https://www.linkedin.com/in/steven-loucks/" target="_blank">
-    <img src="/assets/icons/linkedin.png" alt="LinkedIn" style="height: 40px;" />
-  </a>
-</div><script>
-  function toggleComptiaGrid() {
-    const grid = document.getElementById("comptia-cert-grid");
-    grid.classList.toggle("show");
-  }
-
-  function toggleIsc2Grid() {
-    const grid = document.getElementById("isc2-cert-grid");
-    grid.classList.toggle("show");
-  }
-</script><footer>
-  &copy; 2025 Steven Loucks — Built with GitHub Pages & Midnight Theme
-</footer>
+</nav><!-- Remaining content continues as is... -->

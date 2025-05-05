@@ -145,7 +145,7 @@ title: Steven Loucks – Cybersecurity Portfolio
     <div class="card">
       <h3>SOC Automation Project</h3>
       <p>Integrated Shuffle with Elastic Stack and Slack to streamline alert triage and SOC workflow automation.</p>
-      <a class="button" href="/labs/soc-automation.md">View Lab</a>
+      <a class="button" href="/labs/soc-automation">View Lab</a>
     </div>
 
     <div class="card">

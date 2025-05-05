@@ -1,7 +1,7 @@
-
 ---
-
-layout: default title: Steven Loucks – Cybersecurity Portfolio
+layout: default
+title: Steven Loucks – Cybersecurity Portfolio
+---
 
 <style>
   body {
@@ -130,16 +130,27 @@ layout: default title: Steven Loucks – Cybersecurity Portfolio
     justify-content: center;
     gap: 1.5rem;
   }
-</style><div class="hero">
+</style>
+
+<div class="hero">
   <h1>Steven Loucks</h1>
   <p>Cybersecurity Student | Cloud Enthusiast | Lab Builder</p>
-  <img src="/assets/icons/navy-veteran.png" alt="U.S. Navy Veteran Seal" style="height: 70px; margin-top: 1rem;" />
-  <img src="/assets/icons/wgu-logo.png" alt="Western Governors University Logo" style="height: 60px; margin: 0.5rem;" />
+  <img src="/assets/icons/navy-veteran.png" alt="U.S. Navy Veteran Seal" style="height: 70px; margin-top: 1rem; border-radius: 50%;" />
+  <img src="/assets/icons/wgu-logo.png" alt="Western Governors University Logo" style="height: 60px; margin: 0.5rem; border-radius: 50%;" />
   <p style="text-align: center; font-size: 1.1rem; color: #eee;">
     I’m a U.S. Navy veteran and Cybersecurity student at WGU, building hands-on labs and professional skills for a career in cyber defense and cloud security.
   </p>
-</div><nav style="text-align: center; margin: 2rem 0;">
+  <p style="margin-top: 1rem;">
+    <a href="https://www.linkedin.com/in/steven-loucks/" target="_blank">
+      <img src="/assets/icons/linkedin.png" alt="LinkedIn Profile" style="height: 28px; vertical-align: middle;" />
+    </a>
+  </p>
+</div>
+
+<nav style="text-align: center; margin: 2rem 0;">
   <a href="#certs" class="nav-button">Certifications</a>
   <a href="#labs" class="nav-button">Labs</a>
-  <a href="#contact" class="nav-button">Contact</a>
-</nav><!-- Remaining content continues as is... -->
+  <a href="https://www.linkedin.com/in/steven-loucks/" class="nav-button" target="_blank">LinkedIn</a>
+</nav>
+
+<!-- The rest of your index content (about, certifications, labs, etc.) remains unchanged below this point -->

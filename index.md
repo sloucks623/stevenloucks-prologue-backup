@@ -1,7 +1,7 @@
-
 ---
-
-layout: default title: Steven Loucks – Cybersecurity Portfolio
+layout: default
+title: Steven Loucks – Cybersecurity Portfolio
+---
 
 <style>
   body {
@@ -18,11 +18,6 @@ layout: default title: Steven Loucks – Cybersecurity Portfolio
   .site-title:hover {
     color: #66d9ff !important;
     text-decoration: underline;
-  }
-
-  .breadcrumbs, .breadcrumb a {
-    color: #ccc !important;
-    font-size: 0.85rem;
   }
 
   .nav-button {
@@ -115,36 +110,25 @@ layout: default title: Steven Loucks – Cybersecurity Portfolio
     text-align: center;
     margin-bottom: 2rem;
   }
+</style>
 
-  #comptia-cert-grid,
-  #isc2-cert-grid {
-    display: none;
-    margin-top: 2rem;
-    transition: all 0.3s ease-in-out;
-  }
-
-  #comptia-cert-grid.show,
-  #isc2-cert-grid.show {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-  }
-</style><div class="hero">
+<div class="hero">
   <h1>Steven Loucks</h1>
   <p>Cybersecurity Student | Cloud Enthusiast | Lab Builder</p>
-  <div style="margin-top: 1rem;">
-    <img src="/assets/icons/navy-veteran.png" alt="U.S. Navy Veteran Badge" style="height: 60px; margin: 0.5rem; vertical-align: middle;" />
-    <img src="/assets/icons/wgu-logo.png" alt="Western Governors University Logo" style="height: 60px; margin: 0.5rem; vertical-align: middle;" />
-  </div>
+  <img src="/assets/icons/navy-veteran.png" alt="U.S. Navy Veteran Seal" style="height: 70px; margin-top: 1rem;" />
+  <img src="/assets/icons/wgu-logo.png" alt="Western Governors University Logo" style="height: 60px; margin: 0.5rem;" />
   <p style="text-align: center; font-size: 1.1rem; color: #eee;">
     I’m a U.S. Navy veteran and Cybersecurity student at WGU, building hands-on labs and professional skills for a career in cyber defense and cloud security.
   </p>
-</div><nav style="text-align: center; margin: 2rem 0;">
+</div>
+
+<nav style="text-align: center; margin: 2rem 0;">
   <a href="#certs" class="nav-button">Certifications</a>
   <a href="#labs" class="nav-button">Labs</a>
   <a href="#contact" class="nav-button">Contact</a>
-</nav><div class="section" id="about">
+</nav>
+
+<div class="section" id="about">
   <h2>My Journey into Cybersecurity</h2>
   <p>
     After more than two decades operating tower cranes on high-risk job sites, managing Domino’s Pizza stores, and owning a luxury auto transport company, I began a strategic career transition into cybersecurity. I bring with me a mindset built on safety, accountability, and problem-solving under pressure—traits I now apply to digital defense and automation.
@@ -152,7 +136,9 @@ layout: default title: Steven Loucks – Cybersecurity Portfolio
   <p>
     I’m currently pursuing a Bachelor of Science in Cybersecurity and Information Assurance at Western Governors University (WGU), with a hands-on approach to building, testing, and documenting my own home labs. The program is ABET-accredited and designated a National Center of Academic Excellence in Cyber Defense (CAE-CD) by the NSA and DHS.
   </p>
-</div><div class="section" id="why-cyber">
+</div>
+
+<div class="section" id="why-cyber">
   <h2>Why Cybersecurity Now?</h2>
   <p>
     Cybersecurity isn’t just a career shift for me—it’s a natural evolution. I’ve spent over 20 years solving high-stakes problems, leading teams, and securing physical systems. Now, I apply that same mindset to protecting digital ones.
@@ -160,7 +146,10 @@ layout: default title: Steven Loucks – Cybersecurity Portfolio
   <p>
     Through labs, certifications, and hands-on learning at WGU, I’m building the skills needed to contribute immediately in areas like SOC operations, network defense, and security automation.
   </p>
-</div><!-- CERTIFICATIONS SECTION --><div class="section" id="certs">
+</div>
+
+<!-- CERTIFICATIONS SECTION -->
+<div class="section" id="certs">
   <h2>Certifications</h2>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 1rem;">
     <a href="https://www.credly.com/badges/b131130a-1f81-4d02-891d-f7e772d02c3d/public_url" target="_blank">
@@ -185,7 +174,10 @@ layout: default title: Steven Loucks – Cybersecurity Portfolio
       <img src="/assets/icons/isc2-cc.png" alt="ISC² Certified in Cybersecurity (CC)" style="height: 60px;" />
     </a>
   </div>
-</div><!-- LABS SECTION --><div class="section" id="labs">
+</div>
+
+<!-- LABS SECTION -->
+<div class="section" id="labs">
   <h2>Lab Projects</h2>
   <div class="card-grid">
     <div class="card">
@@ -204,16 +196,17 @@ layout: default title: Steven Loucks – Cybersecurity Portfolio
       <a class="button" href="/labs/ad-lab-2">View Lab</a>
     </div>
   </div>
-</div><script>
-  function toggleComptiaGrid() {
-    const grid = document.getElementById("comptia-cert-grid");
-    grid.classList.toggle("show");
-  }
+</div>
 
-  function toggleIsc2Grid() {
-    const grid = document.getElementById("isc2-cert-grid");
-    grid.classList.toggle("show");
-  }
-</script><footer>
+<!-- CONTACT SECTION (LinkedIn Only) -->
+<div class="section" id="contact" style="text-align: center;">
+  <h2>Contact</h2>
+  <p style="margin-bottom: 1rem;">Feel free to connect with me on LinkedIn:</p>
+  <a href="https://www.linkedin.com/in/steven-loucks/" target="_blank">
+    <img src="/assets/icons/linkedin.png" alt="LinkedIn" style="height: 40px;" />
+  </a>
+</div>
+
+<footer>
   &copy; 2025 Steven Loucks — Built with GitHub Pages & Midnight Theme
 </footer>

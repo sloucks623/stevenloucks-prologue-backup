@@ -153,9 +153,9 @@ title: Steven Loucks – Cybersecurity Portfolio
     <a href="https://www.credly.com/badges/b286fc02-58d9-41ad-8caa-0687e67fd53d/public_url" target="_blank">
       <img src="/assets/icons/comptia-csis.png" alt="CompTIA CSIS" style="height: 80px;" />
     </a>
-    <!-- CSSS -->
+    <!-- CIOS -->
     <a href="https://www.credly.com/badges/796b7e03-c9f8-41f0-a4f6-a30bd534a5a3/public_url" target="_blank">
-      <img src="/assets/icons/comptia-csss.png" alt="CompTIA CSSS" style="height: 80px;" />
+      <img src="/assets/icons/comptia-cios.png" alt="CompTIA CIOS" style="height: 80px;" />
     </a>
   </div>
 </div>

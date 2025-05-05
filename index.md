@@ -153,4 +153,58 @@ title: Steven Loucks – Cybersecurity Portfolio
   <a href="https://www.linkedin.com/in/steven-loucks/" class="nav-button" target="_blank">LinkedIn</a>
 </nav>
 
-<!-- The rest of your index content (about, certifications, labs, etc.) remains unchanged below this point -->
+<!-- Certification and Labs sections were temporarily removed. Restoring now. -->
+
+<!-- CERTIFICATIONS SECTION -->
+<div class="section" id="certs">
+  <h2>Certifications</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 1rem;">
+    <a href="https://www.credly.com/badges/b131130a-1f81-4d02-891d-f7e772d02c3d/public_url" target="_blank">
+      <img src="/assets/icons/comptia-a-plus.png" alt="CompTIA A+" style="height: 60px;" />
+    </a>
+    <a href="https://www.credly.com/badges/d8cd5829-4fda-407f-b1ac-f8cad9eacd8e/public_url" target="_blank">
+      <img src="/assets/icons/comptia-network-plus.png" alt="CompTIA Network+" style="height: 60px;" />
+    </a>
+    <a href="https://www.credly.com/badges/bfd3f1d4-239e-4ee4-a5db-327cfd884f82/public_url" target="_blank">
+      <img src="/assets/icons/comptia-security-plus.png" alt="CompTIA Security+" style="height: 60px;" />
+    </a>
+    <a href="https://www.credly.com/badges/b286fc02-58d9-41ad-8caa-0687e67fd53d/public_url" target="_blank">
+      <img src="/assets/icons/comptia-cios.png" alt="CompTIA CIOS" style="height: 60px;" />
+    </a>
+    <a href="https://www.credly.com/badges/796b7e03-c9f8-41f0-a4f6-a30bd534a5a3/public_url" target="_blank">
+      <img src="/assets/icons/comptia-csis.png" alt="CompTIA CSIS" style="height: 60px;" />
+    </a>
+    <a href="https://www.credly.com/badges/b0bf80d4-ce82-409f-9fbf-ce566e35f719/public_url" target="_blank">
+      <img src="/assets/icons/linux-essentials.png" alt="Linux Essentials" style="height: 60px;" />
+    </a>
+    <a href="https://www.credly.com/badges/85d10601-eb14-40bb-a7d5-ba9f25ca9c7a/public_url" target="_blank">
+      <img src="/assets/icons/isc2-cc.png" alt="ISC² Certified in Cybersecurity (CC)" style="height: 60px;" />
+    </a>
+  </div>
+</div>
+
+<!-- LABS SECTION -->
+<div class="section" id="labs">
+  <h2>Lab Projects</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>SOC Automation Project</h3>
+      <p>Integrated Shuffle with Elastic Stack and Slack to streamline alert triage and SOC workflow automation.</p>
+      <a class="button" href="/labs/soc-automation">View Lab</a>
+    </div>
+    <div class="card">
+      <h3>Active Directory Lab 1.0</h3>
+      <p>Set up a basic Windows AD environment with domain controller, user/group configuration, DNS, and DHCP.</p>
+      <a class="button" href="/labs/ad-lab-1">View Lab</a>
+    </div>
+    <div class="card">
+      <h3>Active Directory Lab 2.0</h3>
+      <p>Expanded AD lab with organizational units, GPOs, PowerShell automation, and network segmentation.</p>
+      <a class="button" href="/labs/ad-lab-2">View Lab</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 Steven Loucks — Built with GitHub Pages & Midnight Theme
+</footer>

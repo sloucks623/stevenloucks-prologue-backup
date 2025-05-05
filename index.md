@@ -3,6 +3,18 @@ layout: default
 title: Steven Loucks – Cybersecurity Portfolio
 ---
 
+.nav-link {
+  margin: 0 1rem;
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.nav-link:hover {
+  color: #00bfff;
+  text-decoration: underline;
+}
 <style>
   body {
     background-color: #1d1f21;

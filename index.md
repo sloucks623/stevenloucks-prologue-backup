@@ -153,9 +153,26 @@ title: Steven Loucks – Cybersecurity Portfolio
   <a href="https://www.linkedin.com/in/steven-loucks/" class="nav-button" target="_blank">LinkedIn</a>
 </nav>
 
-<!-- Certification and Labs sections were temporarily removed. Restoring now. -->
+<div class="section" id="about">
+  <h2>My Journey into Cybersecurity</h2>
+  <p>
+    After more than two decades operating tower cranes on high-risk job sites, managing Domino’s Pizza stores, and owning a luxury auto transport company, I began a strategic career transition into cybersecurity. I bring with me a mindset built on safety, accountability, and problem-solving under pressure—traits I now apply to digital defense and automation.
+  </p>
+  <p>
+    I’m currently pursuing a Bachelor of Science in Cybersecurity and Information Assurance at Western Governors University (WGU), with a hands-on approach to building, testing, and documenting my own home labs. The program is ABET-accredited and designated a National Center of Academic Excellence in Cyber Defense (CAE-CD) by the NSA and DHS.
+  </p>
+</div>
 
-<!-- CERTIFICATIONS SECTION -->
+<div class="section" id="why-cyber">
+  <h2>Why Cybersecurity Now?</h2>
+  <p>
+    Cybersecurity isn’t just a career shift for me—it’s a natural evolution. I’ve spent over 20 years solving high-stakes problems, leading teams, and securing physical systems. Now, I apply that same mindset to protecting digital ones.
+  </p>
+  <p>
+    Through labs, certifications, and hands-on learning at WGU, I’m building the skills needed to contribute immediately in areas like SOC operations, network defense, and security automation.
+  </p>
+</div>
+
 <div class="section" id="certs">
   <h2>Certifications</h2>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 1rem;">
@@ -183,7 +200,6 @@ title: Steven Loucks – Cybersecurity Portfolio
   </div>
 </div>
 
-<!-- LABS SECTION -->
 <div class="section" id="labs">
   <h2>Lab Projects</h2>
   <div class="card-grid">
@@ -204,6 +220,18 @@ title: Steven Loucks – Cybersecurity Portfolio
     </div>
   </div>
 </div>
+
+<script>
+  function toggleComptiaGrid() {
+    const grid = document.getElementById("comptia-cert-grid");
+    grid.classList.toggle("show");
+  }
+
+  function toggleIsc2Grid() {
+    const grid = document.getElementById("isc2-cert-grid");
+    grid.classList.toggle("show");
+  }
+</script>
 
 <footer>
   &copy; 2025 Steven Loucks — Built with GitHub Pages & Midnight Theme

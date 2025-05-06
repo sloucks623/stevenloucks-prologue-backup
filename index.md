@@ -221,6 +221,24 @@ title: Steven Loucks – Cybersecurity Portfolio
   </div>
 </div>
 
+<div class="section" id="modules">
+  <h2>Reusable Lab Modules</h2>
+  <div class="card-grid">
+
+    <div class="card">
+      <h4>Ubuntu Server Secure Setup</h4>
+      <p>Reusable baseline configuration for a hardened Ubuntu Server, including firewall rules, SSH hardening, and service tuning. Referenced across multiple labs.</p>
+      <a class="button" href="https://github.com/StevenLoucks/module-ubuntu-secure-setup" target="_blank">View Module</a>
+    </div>
+
+    <div class="card">
+      <h4>Windows Server 2019 Domain Setup</h4>
+      <p>Step-by-step setup guide for installing and configuring a Windows Server 2019 instance for AD DS, DNS, DHCP, and Group Policy preparation.</p>
+      <a class="button" href="https://github.com/StevenLoucks/module-winserver2019-setup" target="_blank">View Module</a>
+    </div>
+
+  </div>
+</div>
 <script>
   function toggleComptiaGrid() {
     const grid = document.getElementById("comptia-cert-grid");

@@ -211,7 +211,7 @@ title: Steven Loucks – Cybersecurity Portfolio
     <div class="card">
       <h3>Active Directory Lab 1.0</h3>
       <p>Set up a basic Windows AD environment with domain controller, user/group configuration, DNS, and DHCP.</p>
-      <a class="button" href="https://github.com/Loucks623/lab-active-directory-1.0" target="_blank">View Lab</a>
+      <a class="button" href="https://github.com/sloucks623/lab-active-directory-1.0" target="_blank">View Lab</a>
     </div>
     <div class="card">
       <h3>Active Directory Lab 2.0</h3>

@@ -37,6 +37,10 @@ title: Steven Loucks – Cybersecurity Portfolio
     transition: background 0.2s ease-in-out;
   }
 
+  .nav-button:visited {
+    color: white !important;
+  }
+
   .nav-button:hover {
     background: #005fa3;
   }
@@ -152,7 +156,7 @@ title: Steven Loucks – Cybersecurity Portfolio
   <a href="#labs" class="nav-button">Labs</a>
   <a href="https://www.linkedin.com/in/steven-loucks-846b65270" class="nav-button" target="_blank">LinkedIn</a>
 </nav>
-</div>
+
 <div class="section" id="about">
   <h2>My Journey into Cybersecurity</h2>
   <p>
@@ -207,9 +211,8 @@ title: Steven Loucks – Cybersecurity Portfolio
       <h3>SOC Automation Project</h3>
       <p>Integrated Shuffle with Elastic Stack and Slack to streamline alert triage and SOC workflow automation.</p>
       <a class="button" href="https://github.com/sloucks623/lab-soc-automation" target="_blank">View Lab</a>
-      <div>
+    </div>
     <div class="card">
-      
       <h3>Active Directory Lab 1.0</h3>
       <p>Set up a basic Windows AD environment with domain controller, user/group configuration, DNS, and DHCP.</p>
       <a class="button" href="https://github.com/sloucks623/lab-active-directory-1.0" target="_blank">View Lab</a>

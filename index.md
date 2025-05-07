@@ -152,7 +152,7 @@ title: Steven Loucks – Cybersecurity Portfolio
   <a href="#labs" class="nav-button">Labs</a>
   <a href="https://www.linkedin.com/in/steven-loucks-846b65270" class="nav-button" target="_blank">LinkedIn</a>
 </nav>
-
+</div>
 <div class="section" id="about">
   <h2>My Journey into Cybersecurity</h2>
   <p>

@@ -220,7 +220,7 @@ title: Steven Loucks – Cybersecurity Portfolio
     <div class="card">
       <h3>Active Directory Lab 2.0</h3>
       <p>Expanded AD lab with organizational units, GPOs, PowerShell automation, and network segmentation.</p>
-      <a class="button" href="/labs/ad-lab-2">View Lab</a>
+      <a class="button" href="https://github.com/sloucks623/lab-active-directory-2.0" target="_blank">View Lab</a>
     </div>
   </div>
 </div>

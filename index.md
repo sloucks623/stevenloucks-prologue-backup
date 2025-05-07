@@ -141,7 +141,7 @@ title: Steven Loucks – Cybersecurity Portfolio
     I’m a U.S. Navy veteran and Cybersecurity student at WGU, building hands-on labs and professional skills for a career in cyber defense and cloud security.
   </p>
   <p style="margin-top: 1rem;">
-    <a href="https://www.linkedin.com/in/steven-loucks/" target="_blank">
+    <a href="https://www.linkedin.com/in/steven-loucks-846b65270" target="_blank">
       <img src="/assets/icons/linkedin.png" alt="LinkedIn Profile" style="height: 28px; vertical-align: middle;" />
     </a>
   </p>

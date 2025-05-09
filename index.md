@@ -31,7 +31,28 @@ title: Steven Loucks – Cybersecurity Portfolio
   <h2>Lab Projects</h2>
   <p>Each lab links to its own GitHub repository with documentation and screenshots.</p>
   <div class="card-grid">
-    <!-- Each lab will have a card with name, description, and GitHub link -->
+
+    <!-- SOC Automation Lab -->
+    <div class="card">
+      <h3>SOC Automation Lab</h3>
+      <p>Automating alert triage using Shuffle, Elastic Stack, and Slack integrations.</p>
+      <a href="https://github.com/sloucks623/lab-soc-automation" class="lab-button" target="_blank">View Lab</a>
+    </div>
+
+    <!-- Active Directory Lab 1.0 -->
+    <div class="card">
+      <h3>Active Directory Lab 1.0</h3>
+      <p>Basic Windows AD setup with domain controller, DHCP, DNS, and test users.</p>
+      <a href="https://github.com/sloucks623/lab-ad-1.0" class="lab-button" target="_blank">View Lab</a>
+    </div>
+
+    <!-- Active Directory Lab 2.0 -->
+    <div class="card">
+      <h3>Active Directory Lab 2.0</h3>
+      <p>Expanded AD environment with OUs, GPOs, PowerShell automation, and segmentation.</p>
+      <a href="https://github.com/sloucks623/lab-ad-2.0" class="lab-button" target="_blank">View Lab</a>
+    </div>
+
   </div>
 </section>
 
